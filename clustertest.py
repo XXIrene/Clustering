@@ -97,7 +97,8 @@ def addrs_appear_count_all(addr,tx_id,txs):
 
 def identify_involved_txs(addr,txs):
     input_txs, output_txs = identify_addr(addr, txs)
-    total_txs = input_txs + output_txs
+    # total_txs = input_txs + output_txs
+    total_txs = input_txs
     print("The given address '{0}'involved in {1} transactions".format(addr,len(total_txs)))
     return total_txs
 
@@ -155,6 +156,7 @@ def is_one_time_chance(inputNum, outputNum, inputAddrs, outputAddrs,tx_id,txs):
     # if outputNum == 2 and inputNum != 2:
     # but in our project, we do not involve mixer transaction, so this filter can be ignored
     if outputNum == 2:
+        print("One-time-change transaction")
         # if two list do not have same element, then find out the change address
         if not is_two_list_overlap(inputAddrs,outputAddrs):
             addr1=outputAddrs[0]
@@ -185,12 +187,14 @@ def is_one_time_chance(inputNum, outputNum, inputAddrs, outputAddrs,tx_id,txs):
         return False, None
 def is_comman_spending(inputNum,outputNum):
     if outputNum == 1 and inputNum > 0:
+        print("Common spending transaction")
         return True
     else:
         return False
 
 def is_coinbase(inputNum,outputNum):
     if outputNum == 1 and inputNum == 0:
+        print("Coinbase transaction")
         return True
     else:
         return False
@@ -229,6 +233,7 @@ def get_a_cluster_from_an_address(addr,txs):
     total_txs = identify_involved_txs(addr, txs)
     cl = analyze_involved_txs(addr,total_txs, txs)
     print("result:{0}".format(cl))
+    print("************************************************************")
     return cl
 
 def remove_duplicate_elements_from_list(dlist):
@@ -239,6 +244,17 @@ def remove_duplicate_elements_from_list(dlist):
 def remove_duplicates(new,old):
     list_new = [x for x in new if x not in old]
     return list_new
+
+def re_cluster(addr_cluster,txs):
+    tmp_cluster = []
+    tmp_cluster.extend(addr_cluster)
+    for addr in addr_cluster:
+        tmp_cluster.extend(get_a_cluster_from_an_address(addr, txs))
+    tmp_cluster = remove_duplicate_elements_from_list(tmp_cluster)
+    if len(tmp_cluster) == len(addr_cluster):
+        return tmp_cluster
+    return re_cluster(tmp_cluster, txs)
+
 
 def recur_cluster(addr,txs):
     # addr = "1BvLef6YqEaA35L7C9xq7j8W3GJ2GFbDik"
@@ -276,18 +292,19 @@ def statistic_from_raw_txs(txs):
     return len(cs_list)
 
 def main():
-    # print("hello world")
-    # print("hello world")
-    addrs, txs=preprocessing()
-    # statistic_from_raw_txs(txs)
+    addrs, txs = preprocessing()
+    addr = ["1NdufxUjo63f9dQ2ov9bCpNsXd23wbgaD6"]
+    re = re_cluster(addr, txs)
+    print("Clustering result is:{0}".format(re))
+    addr = "1NdufxUjo63f9dQ2ov9bCpNsXd23wbgaD6"
+    # wallet_real_cluster(addr)
 
-    addr = "1KMwqQbmosoE3NX63VtB3wLZk9ExcH8b3f"
-    # get_a_cluster_from_an_address(addr,txs)
-    # total_txs = identify_involved_txs(addr,txs)
-    # cl=analyze_involved_txs(total_txs, txs)
-    # print("result:{0}".format(cl))
-
-    wallet_real_cluster(addr)
+    # addrs, txs = preprocessing()
+    # # statistic_from_raw_txs(txs)
+    #
+    # addr = "19YzxhN3c9a7QP5Kej5e3cBojdNszZnRMF"
+    # recur_cluster(addr, txs)
+    # wallet_real_cluster(addr)
 
 if __name__ == "__main__":
     # test()
