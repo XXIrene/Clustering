@@ -22,6 +22,7 @@ def wallet_real_cluster(addr):
     for i in range(len(user_wallet_info)):
         if user_wallet_info[i][2] == addr:
             target_id = user_wallet_info[i][1]
+            print("This given address '{0}' belong to user{1}".format(addr, target_id))
     # if given address is in user wallet, found the real cluster for the given address
     if int(target_id) >= 0:
         for i in range(len(user_wallet_info)):
@@ -41,7 +42,6 @@ def preprocessing():
     db.close()
     address_temp = []
     txs = []
-    print(db_records)
     # db_records example:
     # ((1, '{"input": [], "output": [{"to_addr": "14KpNE1Svm3hgLF47XsPGSMDUdoo2EnL1y", "value": 100000}]}'),)
     for i in range(len(db_records)):
@@ -78,24 +78,27 @@ def addrs_appear_count(addr,txid,txs):
                 addr_appearance_count = addr_appearance_count + 1
     return addr_appearance_count
 
-def addrs_appear_count_all(addr,txs):
+def addrs_appear_count_all(addr,tx_id,txs):
     addrs_appear_count=0
-    for tx in txs:
+    # remove current transaction appearance of addr
+    other_txs=txs.copy()
+    other_txs.pop(tx_id)
+    for tx in other_txs:
         for j in range(len(tx['input'])):
             if addr == tx['input'][j]['to_addr']:
                 addrs_appear_count = addrs_appear_count + 1
-                print("Appeared in transaction[{0}]".format(tx))
+                # print("Appeared in transaction[{0}]".format(txs.index(tx)+1))
         for j in range(len(tx['output'])):
             if addr == tx['output'][j]['to_addr']:
                 addrs_appear_count = addrs_appear_count + 1
-                print("Appeared in transaction[{0}]".format(tx))
+                # print("Appeared in transaction[{0}]".format(txs.index(tx)+1))
     return addrs_appear_count
 
 
 def identify_involved_txs(addr,txs):
     input_txs, output_txs = identify_addr(addr, txs)
     total_txs = input_txs + output_txs
-    print("The given address involved in {0} transactions".format(len(total_txs)))
+    print("The given address '{0}'involved in {1} transactions".format(addr,len(total_txs)))
     return total_txs
 
 def identify_addr(addr,txs):
@@ -128,6 +131,7 @@ def is_two_list_overlap(l1,l2):
         return True
 
 def clustering_from_three_types(inputNum, outputNum, inputAddrs, outputAddrs,tx_id,txs):
+
     cluster_list=[]
     flagOTC, change_addr = is_one_time_chance(inputNum, outputNum, inputAddrs, outputAddrs,tx_id,txs)
     flagCS = is_comman_spending(inputNum,outputNum)
@@ -142,29 +146,31 @@ def clustering_from_three_types(inputNum, outputNum, inputAddrs, outputAddrs,tx_
     # CB--all output addresses belong to same entity
     if flagCB:
         pass
-    print(cluster_list)
+    # print(cluster_list)
     return cluster_list
 
 def is_one_time_chance(inputNum, outputNum, inputAddrs, outputAddrs,tx_id,txs):
-    tx_id = tx_id - 1
+
     changeAddr = ""
-    if outputNum == 2 and inputNum != 2:
+    # if outputNum == 2 and inputNum != 2:
+    # but in our project, we do not involve mixer transaction, so this filter can be ignored
+    if outputNum == 2:
         # if two list do not have same element, then find out the change address
         if not is_two_list_overlap(inputAddrs,outputAddrs):
             addr1=outputAddrs[0]
             addr2=outputAddrs[1]
             # addr1_count = addrs_appear_count(addr1, tx_id, txs)
-            addr1_count = addrs_appear_count_all(addr1,txs)
-            print("output address {0} appeared {1} times in past transactions".format(addr1, addr1_count))
+            addr1_count = addrs_appear_count_all(addr1, tx_id, txs)
+            print("output address1 '{0}' appeared {1} times in transactions".format(addr1, addr1_count))
             # addr2_count = addrs_appear_count(addr2, tx_id, txs)
-            addr2_count = addrs_appear_count_all(addr2, txs)
-            print("output address {0} appeared {1} times in past transactions".format(addr2, addr2_count))
+            addr2_count = addrs_appear_count_all(addr2, tx_id, txs)
+            print("output address2 '{0}' appeared {1} times in transactions".format(addr2, addr2_count))
 
-            if addr1_count > 2 and addr2_count <= 2:
+            if addr1_count >= 2 and addr2_count < 2:
                 changeAddr = addr2
                 print("address '{0}' is more likely a change address".format(changeAddr))
                 return True, changeAddr
-            elif addr2_count > 2 and addr1_count <= 2:
+            elif addr2_count >= 2 and addr1_count < 2:
                 changeAddr = addr1
                 print("address '{0}' is more likely a change address".format(changeAddr))
                 return True, changeAddr
@@ -189,14 +195,15 @@ def is_coinbase(inputNum,outputNum):
     else:
         return False
 
+
 def statistic_from_tx(tx_record):
     input_addrs=[]
     output_addrs=[]
     input_num=len(tx_record[1]['input'])
     output_num=len(tx_record[1]['output'])
     # database txid start from 1, here python list start from 0, so...
-    tx_id = tx_record[0]+1
-    print("Transaction {0} has {1} input and {2} output".format(tx_id,input_num,output_num))
+    tx_id = tx_record[0]
+    print("Transaction {0} has {1} input and {2} output".format(tx_record[0]+1,input_num,output_num))
 
     for i in range(input_num):
         input_addrs.append(tx_record[1]['input'][i]['to_addr'])
@@ -206,24 +213,85 @@ def statistic_from_tx(tx_record):
     # count_list[0]---input count
     return input_num, output_num, input_addrs, output_addrs, tx_id
 
-def analyze_involved_txs(txs_record,txs):
+def analyze_involved_txs(addr,txs_record,txs):
     addr_cluster = []
+    addr_cluster.append(addr)
     for tx_record in txs_record:
+        print("************************************************************")
         inputNum, outputNum, inputAddrs, outputAddrs, tx_id = statistic_from_tx(tx_record)
         cluster_list=clustering_from_three_types(inputNum, outputNum, inputAddrs, outputAddrs, tx_id,txs)
         addr_cluster.extend(cluster_list)
+        print("************************************************************")
+    addr_cluster = remove_duplicate_elements_from_list(addr_cluster)
     return addr_cluster
+
+def get_a_cluster_from_an_address(addr,txs):
+    total_txs = identify_involved_txs(addr, txs)
+    cl = analyze_involved_txs(addr,total_txs, txs)
+    print("result:{0}".format(cl))
+    return cl
+
+def remove_duplicate_elements_from_list(dlist):
+    result = list(set(dlist))
+
+    return result
+
+def remove_duplicates(new,old):
+    list_new = [x for x in new if x not in old]
+    return list_new
+
+def recur_cluster(addr,txs):
+    # addr = "1BvLef6YqEaA35L7C9xq7j8W3GJ2GFbDik"
+
+    # initialize old_cluster only has the given address
+    old_cluster = []
+    old_cluster.append(addr)
+    final_cluster = []
+    new_cluster = get_a_cluster_from_an_address(addr,txs)
+
+    while len(old_cluster) != len(new_cluster):
+
+        final_cluster_temp = []
+        temp_cluster = remove_duplicates(new_cluster,old_cluster)
+        for ad in temp_cluster:
+            temp = get_a_cluster_from_an_address(ad, txs)
+            final_cluster_temp = new_cluster + temp
+        final_cluster=list(set(final_cluster_temp))
+        old_cluster = new_cluster.copy()
+        new_cluster = final_cluster
+
+    print("Clustering result is:{0}".format(final_cluster))
+
+
+
+def statistic_from_raw_txs(txs):
+    cs_list=[]
+    for tx in txs:
+        input_num=len(tx['input'])
+        output_num=len(tx['output'])
+        if is_comman_spending(input_num,output_num):
+            print("{0}|{1}".format(txs.index(tx)+1, tx))
+            cs_list.append(tx)
+    print("Total num of commen spending tx is {0}".format(len(cs_list)))
+    return len(cs_list)
+
 def main():
     # print("hello world")
     # print("hello world")
     addrs, txs=preprocessing()
-    # addr = "1NwFhitnTy59eSsYeHQbkxRySzLHSUm678"
+    # statistic_from_raw_txs(txs)
+
+    addr = "1KMwqQbmosoE3NX63VtB3wLZk9ExcH8b3f"
+    # get_a_cluster_from_an_address(addr,txs)
     # total_txs = identify_involved_txs(addr,txs)
-    # analyze_involved_txs(total_txs, txs)
-    # wallet_real_cluster(addr)
+    # cl=analyze_involved_txs(total_txs, txs)
+    # print("result:{0}".format(cl))
+
+    wallet_real_cluster(addr)
 
 if __name__ == "__main__":
     # test()
     main()
+
     # wallet_real_cluster()
 
