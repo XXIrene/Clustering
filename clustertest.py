@@ -1,12 +1,17 @@
 from dbconn import connectDB
 import json
+from prettytable import PrettyTable
 
 INPUT = 0
 OUTPUT = 1
 
-def println(alist):
+def println(title,alist):
+    # for i in alist:
+    #     print(i)
+    t = PrettyTable([title])
     for i in alist:
-        print(i)
+        t.add_row([i])
+    print(t)
 
 
 def wallet_real_cluster(addr):
@@ -28,7 +33,7 @@ def wallet_real_cluster(addr):
         for i in range(len(user_wallet_info)):
             if user_wallet_info[i][1] == target_id:
                 cluster_list.append(user_wallet_info[i][2])
-    println(cluster_list)
+    println("Real Result",cluster_list)
     return cluster_list
 
 
@@ -232,8 +237,8 @@ def analyze_involved_txs(addr,txs_record,txs):
 def get_a_cluster_from_an_address(addr,txs):
     total_txs = identify_involved_txs(addr, txs)
     cl = analyze_involved_txs(addr,total_txs, txs)
-    print("result:{0}".format(cl))
-    print("************************************************************")
+    print("result:{0}\n".format(cl))
+
     return cl
 
 def remove_duplicate_elements_from_list(dlist):
@@ -245,16 +250,15 @@ def remove_duplicates(new,old):
     list_new = [x for x in new if x not in old]
     return list_new
 
-def re_cluster(addr_cluster,txs):
-    tmp_cluster = []
-    tmp_cluster.extend(addr_cluster)
-    for addr in addr_cluster:
-        tmp_cluster.extend(get_a_cluster_from_an_address(addr, txs))
+def re_cluster(old_cluster,new_cluster,txs):
+    tmp_cluster = old_cluster.copy()
+    for ad in new_cluster:
+        tmp_cluster.extend(get_a_cluster_from_an_address(ad, txs))
     tmp_cluster = remove_duplicate_elements_from_list(tmp_cluster)
-    if len(tmp_cluster) == len(addr_cluster):
+    new_cluster = remove_duplicates(tmp_cluster,old_cluster)
+    if len(new_cluster) == 0:
         return tmp_cluster
-    return re_cluster(tmp_cluster, txs)
-
+    return re_cluster(tmp_cluster,new_cluster,txs)
 
 def recur_cluster(addr,txs):
     # addr = "1BvLef6YqEaA35L7C9xq7j8W3GJ2GFbDik"
@@ -276,7 +280,7 @@ def recur_cluster(addr,txs):
         old_cluster = new_cluster.copy()
         new_cluster = final_cluster
 
-    print("Clustering result is:{0}".format(final_cluster))
+    println("Clustering Result",final_cluster)
 
 
 
@@ -292,17 +296,18 @@ def statistic_from_raw_txs(txs):
     return len(cs_list)
 
 def main():
-    addrs, txs = preprocessing()
-    addr = ["1NdufxUjo63f9dQ2ov9bCpNsXd23wbgaD6"]
-    re = re_cluster(addr, txs)
-    print("Clustering result is:{0}".format(re))
-    addr = "1NdufxUjo63f9dQ2ov9bCpNsXd23wbgaD6"
-    # wallet_real_cluster(addr)
 
+    # method 1
+    addrs, txs = preprocessing()
+    addr = ["1Ag4AkSsia9o9b2pBVziii8o9dfZvAsXc9"]
+    result = re_cluster(addr,addr, txs)
+    println("Clustering Result",result)
+    addr = "1Ag4AkSsia9o9b2pBVziii8o9dfZvAsXc9"
+    wallet_real_cluster(addr)
+
+    # # method 2
     # addrs, txs = preprocessing()
-    # # statistic_from_raw_txs(txs)
-    #
-    # addr = "19YzxhN3c9a7QP5Kej5e3cBojdNszZnRMF"
+    # addr = "1NdufxUjo63f9dQ2ov9bCpNsXd23wbgaD6"
     # recur_cluster(addr, txs)
     # wallet_real_cluster(addr)
 
