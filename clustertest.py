@@ -69,9 +69,10 @@ def preprocessing():
     # print(address)
     return address, txs
 
- # 2. for each given address, identify all the transaction involved with
+# 2. for each given address, identify all the transaction involved with
     # return with its identification and corresponding related txs;
 
+# Deprecated
 def addrs_appear_count(addr,txid,txs):
     addr_appearance_count = 0
     for i in range(txid):
@@ -99,7 +100,7 @@ def addrs_appear_count_all(addr,tx_id,txs):
                 # print("Appeared in transaction[{0}]".format(txs.index(tx)+1))
     return addrs_appear_count
 
-
+# Deprecated
 def identify_involved_txs(addr,txs):
     input_txs, output_txs = identify_addr(addr, txs)
     # total_txs = input_txs + output_txs
@@ -107,6 +108,7 @@ def identify_involved_txs(addr,txs):
     print("The given address '{0}'involved in {1} transactions".format(addr,len(total_txs)))
     return total_txs
 
+# identify input_txs list and output_txs list respectively for the given address
 def identify_addr(addr,txs):
     involved_input_txs = []
     involved_output_txs = []
@@ -125,7 +127,9 @@ def identify_addr(addr,txs):
                 tx_temp.append(txs.index(tx))
                 tx_temp.append(tx)
                 involved_output_txs.append(tx_temp)
-
+    print("The given address '{0}'involved in {1} transactions ".format(addr, (
+                len(involved_output_txs) + len(involved_input_txs))))
+    # rint(type(involved_input_txs[0][0]))
     return involved_input_txs, involved_output_txs
 
 # Determine if two list have overlap element, no-false/yes-true
@@ -136,6 +140,7 @@ def is_two_list_overlap(l1,l2):
     else:
         return True
 
+# Deprecated
 def clustering_from_three_types(inputNum, outputNum, inputAddrs, outputAddrs,tx_id,txs):
 
     cluster_list=[]
@@ -155,8 +160,8 @@ def clustering_from_three_types(inputNum, outputNum, inputAddrs, outputAddrs,tx_
     # print(cluster_list)
     return cluster_list
 
+# Determine if it's an OTC tx type
 def is_one_time_chance(inputNum, outputNum, inputAddrs, outputAddrs,tx_id,txs):
-
     changeAddr = ""
     # if outputNum == 2 and inputNum != 2:
     # but in our project, we do not involve mixer transaction, so this filter can be ignored
@@ -166,10 +171,8 @@ def is_one_time_chance(inputNum, outputNum, inputAddrs, outputAddrs,tx_id,txs):
         if not is_two_list_overlap(inputAddrs,outputAddrs):
             addr1=outputAddrs[0]
             addr2=outputAddrs[1]
-            # addr1_count = addrs_appear_count(addr1, tx_id, txs)
             addr1_count = addrs_appear_count_all(addr1, tx_id, txs)
             print("output address1 '{0}' appeared {1} times in transactions".format(addr1, addr1_count))
-            # addr2_count = addrs_appear_count(addr2, tx_id, txs)
             addr2_count = addrs_appear_count_all(addr2, tx_id, txs)
             print("output address2 '{0}' appeared {1} times in transactions".format(addr2, addr2_count))
 
@@ -187,9 +190,10 @@ def is_one_time_chance(inputNum, outputNum, inputAddrs, outputAddrs,tx_id,txs):
 
         else:
             return False, None
-
     else:
         return False, None
+
+# Determine if it's an CS tx type
 def is_comman_spending(inputNum,outputNum):
     if outputNum == 1 and inputNum > 0:
         print("Common spending transaction")
@@ -197,6 +201,7 @@ def is_comman_spending(inputNum,outputNum):
     else:
         return False
 
+# Determine if it's an CB tx type
 def is_coinbase(inputNum,outputNum):
     if outputNum == 1 and inputNum == 0:
         print("Coinbase transaction")
@@ -204,24 +209,24 @@ def is_coinbase(inputNum,outputNum):
     else:
         return False
 
-
+# Parse out input and output addresses number, input addrs and output addrs list, tx_id of the involved tx
 def statistic_from_tx(tx_record):
-    input_addrs=[]
-    output_addrs=[]
-    input_num=len(tx_record[1]['input'])
-    output_num=len(tx_record[1]['output'])
-    # database txid start from 1, here python list start from 0, so...
+    input_addrs = []
+    output_addrs = []
+    input_num = len(tx_record[1]['input'])
+    output_num = len(tx_record[1]['output'])
     tx_id = tx_record[0]
-    print("Transaction {0} has {1} input and {2} output".format(tx_record[0]+1,input_num,output_num))
+
+    print("Transaction {0} has {1} input and {2} output".format(tx_record[0]+1, input_num, output_num))
 
     for i in range(input_num):
         input_addrs.append(tx_record[1]['input'][i]['to_addr'])
     for j in range(output_num):
         output_addrs.append(tx_record[1]['output'][j]['to_addr'])
-    # count_list[1]---output count
-    # count_list[0]---input count
+
     return input_num, output_num, input_addrs, output_addrs, tx_id
 
+# Get a cluster for currenr addr and involved txs_record for input and output respectivly
 def analyze_involved_txs(addr,txs_record,txs,flag):
     addr_cluster = []
     addr_cluster.append(addr)
@@ -230,9 +235,9 @@ def analyze_involved_txs(addr,txs_record,txs,flag):
             print("************************************************************")
             print("This addr act as an input address!")
             inputNum, outputNum, inputAddrs, outputAddrs, tx_id = statistic_from_tx(tx_record)
-            cluster_list=clustering_from_input_addrs(addr,inputNum, outputNum, inputAddrs, outputAddrs, tx_id,txs)
+            cluster_list=clustering_from_input_addrs(inputNum, outputNum, inputAddrs, outputAddrs, tx_id,txs)
             addr_cluster.extend(cluster_list)
-            print("************************************************************")
+
         addr_cluster = remove_duplicate_elements_from_list(addr_cluster)
     elif flag == OUTPUT:
         for tx_record in txs_record:
@@ -241,16 +246,16 @@ def analyze_involved_txs(addr,txs_record,txs,flag):
             inputNum, outputNum, inputAddrs, outputAddrs, tx_id = statistic_from_tx(tx_record)
             cluster_list=clustering_from_output_addrs(addr,inputNum, outputNum, inputAddrs, outputAddrs, tx_id,txs)
             addr_cluster.extend(cluster_list)
-            print("************************************************************")
+
         addr_cluster = remove_duplicate_elements_from_list(addr_cluster)
     return addr_cluster
 
 
-def clustering_from_input_addrs(addr, inputNum, outputNum, inputAddrs, outputAddrs, tx_id, txs):
+def clustering_from_input_addrs(inputNum, outputNum, inputAddrs, outputAddrs, tx_id, txs):
     cluster_list = []
     flagOTC, change_addr = is_one_time_chance(inputNum, outputNum, inputAddrs, outputAddrs, tx_id, txs)
     flagCS = is_comman_spending(inputNum, outputNum)
-    flagCB = is_coinbase(inputNum, outputNum)
+
     # OTC--all input addresses and the change address belong to same entity
     if flagOTC:
         cluster_list.extend(inputAddrs)
@@ -259,8 +264,7 @@ def clustering_from_input_addrs(addr, inputNum, outputNum, inputAddrs, outputAdd
     if flagCS:
         cluster_list.extend(inputAddrs)
     # CB--all output addresses belong to same entity
-    if flagCB:
-        pass
+
     # print(cluster_list)
     return cluster_list
 
@@ -268,21 +272,24 @@ def clustering_from_input_addrs(addr, inputNum, outputNum, inputAddrs, outputAdd
 def clustering_from_output_addrs(addr, inputNum, outputNum, inputAddrs, outputAddrs, tx_id, txs):
     cluster_list = []
     flagOTC, change_addr = is_one_time_chance(inputNum, outputNum, inputAddrs, outputAddrs, tx_id, txs)
-    flagCS = is_comman_spending(inputNum, outputNum)
     flagCB = is_coinbase(inputNum, outputNum)
     # OTC--all input addresses and the change address belong to same entity
     if flagOTC and change_addr == addr:
         cluster_list.extend(inputAddrs)
         cluster_list.append(change_addr)
-
+    if flagCB:
+        pass
     return cluster_list
 
 
 def get_a_cluster_from_an_address(addr, txs):
+    # Firstly, find all involved input and output txs respectivly
     input_txs, output_txs = identify_addr(addr, txs)
-
+    # for input txs: do clustering
     cl1 = analyze_involved_txs(addr, input_txs, txs, INPUT)
+    # for output txs: do clustering
     cl2 = analyze_involved_txs(addr, output_txs, txs, OUTPUT)
+    # Merge two list and remove duplicates
     cl=remove_duplicate_elements_from_list(cl1+cl2)
     print("result:{0}".format(cl))
     return cl
@@ -346,7 +353,7 @@ def main():
     # method 1
     addrs, txs = preprocessing()
 
-    addr = "1NTHw2tDXLKbWdQirKUwz8eHyf7iVZF518"
+    addr = "12qnFUMWGUiGCNy3dhw57NHQyPyW78gmg8"
     recur_cluster(addr, txs)
     wallet_real_cluster(addr)
 
