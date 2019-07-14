@@ -1,0 +1,1013 @@
+2019-07-14 15:22:33,483 - $HOME=C:\Users\PRO
+2019-07-14 15:22:33,483 - CONFIGDIR=C:\Users\PRO\.matplotlib
+2019-07-14 15:22:33,484 - matplotlib data path: C:\Users\PRO\AppData\Local\Programs\Python\Python37\lib\site-packages\matplotlib\mpl-data
+2019-07-14 15:22:33,487 - loaded rc file C:\Users\PRO\AppData\Local\Programs\Python\Python37\lib\site-packages\matplotlib\mpl-data\matplotlibrc
+2019-07-14 15:22:33,491 - matplotlib version 3.1.1
+2019-07-14 15:22:33,491 - interactive is False
+2019-07-14 15:22:33,491 - platform is win32
+2019-07-14 15:22:33,491 - loaded modules: ['sys', 'builtins', '_frozen_importlib', '_imp', '_thread', '_warnings', '_weakref', 'zipimport', '_frozen_importlib_external', '_io', 'marshal', 'nt', 'winreg', 'encodings', 'codecs', '_codecs', 'encodings.aliases', 'encodings.utf_8', '_signal', '__main__', 'encodings.latin_1', 'io', 'abc', '_abc', 'site', 'os', 'stat', '_stat', 'ntpath', 'genericpath', 'os.path', '_collections_abc', '_sitebuiltins', '_bootlocale', '_locale', 'encodings.gbk', '_codecs_cn', '_multibytecodec', 'types', 'importlib', 'importlib._bootstrap', 'importlib._bootstrap_external', 'warnings', 'importlib.util', 'importlib.abc', 'importlib.machinery', 'contextlib', 'collections', 'operator', '_operator', 'keyword', 'heapq', '_heapq', 'itertools', 'reprlib', '_collections', 'functools', '_functools', 'mpl_toolkits', 'dbconn', 'dbconn.connectDB', 'pymysql', 'pymysql._compat', 'pymysql.constants', 'pymysql.constants.FIELD_TYPE', 'pymysql.converters', 'datetime', 'time', 'math', '_datetime', 'decimal', 'numbers', 'collections.abc', '_decimal', 're', 'enum', 'sre_compile', '_sre', 'sre_parse', 'sre_constants', 'copyreg', 'pymysql.constants.FLAG', 'pymysql.charset', 'pymysql.err', 'struct', '_struct', 'pymysql.constants.ER', 'pymysql.times', 'pymysql.connections', '__future__', 'errno', 'socket', '_socket', 'selectors', 'select', 'traceback', 'linecache', 'tokenize', 'token', 'pymysql._auth', 'pymysql.constants.CLIENT', 'pymysql.util', 'hashlib', '_hashlib', '_blake2', '_sha3', 'pymysql.constants.COMMAND', 'pymysql.constants.CR', 'pymysql.constants.SERVER_STATUS', 'pymysql.cursors', 'pymysql.optionfile', 'configparser', 'pymysql.protocol', 'ssl', '_ssl', 'base64', 'binascii', 'getpass', 'msvcrt', 'dbconn.logger', 'logging', 'weakref', '_weakrefset', 'string', '_string', 'threading', 'atexit', 'coloredlogs', 'humanfriendly', 'multiprocessing', 'multiprocessing.context', 'multiprocessing.process', 'signal', 'multiprocessing.reduction', 'pickle', '_compat_pickle', '_pickle', '_winapi', '__mp_main__', 'humanfriendly.tables', 'humanfriendly.compat', 'html', 'html.entities', 'html.parser', '_markupbase', 'unittest', 'unittest.result', 'unittest.util', 'unittest.case', 'difflib', 'pprint', 'unittest.suite', 'unittest.loader', 'fnmatch', 'posixpath', 'unittest.main', 'argparse', 'gettext', 'locale', 'unittest.runner', 'unittest.signals', 'humanfriendly.terminal', 'subprocess', 'humanfriendly.text', 'random', 'bisect', '_bisect', '_random', 'textwrap', 'humanfriendly.usage', 'csv', '_csv', 'humanfriendly.prompts', 'colorama', 'colorama.initialise', 'colorama.ansitowin32', 'colorama.ansi', 'colorama.winterm', 'colorama.win32', 'ctypes', '_ctypes', 'ctypes._endian', 'ctypes.wintypes', 'json', 'json.decoder', 'json.scanner', '_json', 'json.encoder', 'prettytable', 'copy', 'unicodedata', 'matplotlib', 'distutils', 'distutils.version', 'inspect', 'dis', 'opcode', '_opcode', 'pathlib', 'urllib', 'urllib.parse', 'shutil', 'zlib', 'bz2', '_compression', '_bz2', 'lzma', '_lzma', 'tempfile', 'matplotlib.cbook', 'glob', 'gzip', 'numpy', 'numpy._globals', 'numpy.__config__', 'numpy.version', 'numpy._distributor_init', 'numpy.core', 'numpy.core.info', 'numpy.core.multiarray', 'numpy.core.overrides', 'numpy.core._multiarray_umath', 'numpy.compat', 'numpy.compat._inspect', 'numpy.compat.py3k', 'numpy.core.umath', 'numpy.core.numerictypes', 'numpy.core._string_helpers', 'numpy.core._type_aliases', 'numpy.core._dtype', 'numpy.core.numeric', 'numpy.core._internal', 'numpy.core.fromnumeric', 'numpy.core._methods', 'numpy.core.arrayprint', 'numpy.core.defchararray', 'numpy.core.records', 'numpy.core.memmap', 'numpy.core.function_base', 'numpy.core.machar', 'numpy.core.getlimits', 'numpy.core.shape_base', 'numpy.core.einsumfunc', 'numpy.core._add_newdocs', 'numpy.core._multiarray_tests', 'numpy.core._dtype_ctypes', 'numpy._pytesttester', 'numpy.lib', 'numpy.lib.info', 'numpy.lib.type_check', 'numpy.lib.ufunclike', 'numpy.lib.index_tricks', 'numpy.matrixlib', 'numpy.matrixlib.defmatrix', 'ast', '_ast', 'numpy.linalg', 'numpy.linalg.info', 'numpy.linalg.linalg', 'numpy.lib.twodim_base', 'numpy.linalg.lapack_lite', 'numpy.linalg._umath_linalg', 'numpy.lib.function_base', 'numpy.lib.utils', 'numpy.lib.histograms', 'numpy.lib.stride_tricks', 'numpy.lib.mixins', 'numpy.lib.nanfunctions', 'numpy.lib.shape_base', 'numpy.lib.scimath', 'numpy.lib.polynomial', 'numpy.lib.arraysetops', 'numpy.lib.npyio', 'numpy.lib.format', 'numpy.lib._datasource', 'numpy.lib._iotools', 'numpy.lib.financial', 'numpy.lib.arrayterator', 'numpy.lib.arraypad', 'numpy.lib._version', 'numpy.fft', 'numpy.fft.info', 'numpy.fft.fftpack', 'numpy.fft.fftpack_lite', 'numpy.fft.helper', 'numpy.polynomial', 'numpy.polynomial.polynomial', 'numpy.polynomial.polyutils', 'numpy.polynomial._polybase', 'numpy.polynomial.chebyshev', 'numpy.polynomial.legendre', 'numpy.polynomial.hermite', 'numpy.polynomial.hermite_e', 'numpy.polynomial.laguerre', 'numpy.random', 'numpy.random.mtrand', 'cython_runtime', 'mtrand', 'numpy.ctypeslib', 'numpy.ma', 'numpy.ma.core', 'numpy.ma.extras', 'numpy.testing', 'numpy.testing._private', 'numpy.testing._private.utils', 'gc', 'numpy.testing._private.decorators', 'numpy.testing._private.nosetester', 'matplotlib.cbook.deprecation', 'matplotlib.rcsetup', 'matplotlib.fontconfig_pattern', 'pyparsing', 'matplotlib.colors', 'matplotlib._color_data', 'cycler', 'six', 'six.moves', 'matplotlib._version', 'matplotlib.ft2font', 'dateutil', 'dateutil._version', 'kiwisolver']
+2019-07-14 15:22:33,561 - CACHEDIR=C:\Users\PRO\.matplotlib
+2019-07-14 15:22:33,571 - Using fontManager instance from C:\Users\PRO\.matplotlib\fontlist-v310.json
+2019-07-14 15:22:33,826 - Loaded backend TkAgg version unknown.
+2019-07-14 15:22:33,846 - 17.0% addresses have been clustered
+2019-07-14 15:22:33,846 - 100% matching clustering!
+2019-07-14 15:22:33,865 - 75.0% addresses have been clustered
+2019-07-14 15:22:33,865 - 100% matching clustering!
+2019-07-14 15:22:33,873 - 50.0% addresses have been clustered
+2019-07-14 15:22:33,873 - 100% matching clustering!
+2019-07-14 15:22:33,881 - 28.999999999999996% addresses have been clustered
+2019-07-14 15:22:33,882 - 100% matching clustering!
+2019-07-14 15:22:33,887 - 7.000000000000001% addresses have been clustered
+2019-07-14 15:22:33,888 - 100% matching clustering!
+2019-07-14 15:22:33,899 - 25.0% addresses have been clustered
+2019-07-14 15:22:33,899 - 100% matching clustering!
+2019-07-14 15:22:33,911 - 50.0% addresses have been clustered
+2019-07-14 15:22:33,911 - 100% matching clustering!
+2019-07-14 15:22:33,918 - 50.0% addresses have been clustered
+2019-07-14 15:22:33,918 - 100% matching clustering!
+2019-07-14 15:22:33,924 - 33.0% addresses have been clustered
+2019-07-14 15:22:33,924 - 100% matching clustering!
+2019-07-14 15:22:33,934 - 50.0% addresses have been clustered
+2019-07-14 15:22:33,935 - 100% matching clustering!
+2019-07-14 15:22:33,943 - 50.0% addresses have been clustered
+2019-07-14 15:22:33,943 - 100% matching clustering!
+2019-07-14 15:22:33,950 - 17.0% addresses have been clustered
+2019-07-14 15:22:33,950 - 100% matching clustering!
+2019-07-14 15:22:33,956 - 11.0% addresses have been clustered
+2019-07-14 15:22:33,956 - 100% matching clustering!
+2019-07-14 15:22:33,962 - 50.0% addresses have been clustered
+2019-07-14 15:22:33,962 - 100% matching clustering!
+2019-07-14 15:22:33,971 - 13.0% addresses have been clustered
+2019-07-14 15:22:33,971 - 100% matching clustering!
+2019-07-14 15:22:33,978 - 100.0% addresses have been clustered
+2019-07-14 15:22:33,978 - 100% matching clustering!
+2019-07-14 15:22:33,986 - 75.0% addresses have been clustered
+2019-07-14 15:22:33,986 - 100% matching clustering!
+2019-07-14 15:22:33,995 - 50.0% addresses have been clustered
+2019-07-14 15:22:33,995 - 100% matching clustering!
+2019-07-14 15:22:34,002 - 8.0% addresses have been clustered
+2019-07-14 15:22:34,002 - 100% matching clustering!
+2019-07-14 15:22:34,008 - 25.0% addresses have been clustered
+2019-07-14 15:22:34,009 - 100% matching clustering!
+2019-07-14 15:22:34,025 - 100.0% addresses have been clustered
+2019-07-14 15:22:34,025 - 100% matching clustering!
+2019-07-14 15:22:34,032 - 50.0% addresses have been clustered
+2019-07-14 15:22:34,032 - 100% matching clustering!
+2019-07-14 15:22:34,039 - 14.000000000000002% addresses have been clustered
+2019-07-14 15:22:34,039 - 100% matching clustering!
+2019-07-14 15:22:34,046 - 50.0% addresses have been clustered
+2019-07-14 15:22:34,046 - 100% matching clustering!
+2019-07-14 15:22:34,053 - 11.0% addresses have been clustered
+2019-07-14 15:22:34,053 - 100% matching clustering!
+2019-07-14 15:22:34,060 - 14.000000000000002% addresses have been clustered
+2019-07-14 15:22:34,060 - 100% matching clustering!
+2019-07-14 15:22:34,070 - 25.0% addresses have been clustered
+2019-07-14 15:22:34,070 - 100% matching clustering!
+2019-07-14 15:22:34,089 - 33.0% addresses have been clustered
+2019-07-14 15:22:34,089 - 100% matching clustering!
+2019-07-14 15:22:34,097 - 50.0% addresses have been clustered
+2019-07-14 15:22:34,097 - 100% matching clustering!
+2019-07-14 15:22:34,106 - 50.0% addresses have been clustered
+2019-07-14 15:22:34,107 - 100% matching clustering!
+2019-07-14 15:22:34,114 - 12.0% addresses have been clustered
+2019-07-14 15:22:34,114 - 100% matching clustering!
+2019-07-14 15:22:34,122 - 9.0% addresses have been clustered
+2019-07-14 15:22:34,122 - 100% matching clustering!
+2019-07-14 15:22:34,130 - 22.0% addresses have been clustered
+2019-07-14 15:22:34,131 - 100% matching clustering!
+2019-07-14 15:22:34,139 - 50.0% addresses have been clustered
+2019-07-14 15:22:34,139 - 100% matching clustering!
+2019-07-14 15:22:34,146 - 25.0% addresses have been clustered
+2019-07-14 15:22:34,146 - 100% matching clustering!
+2019-07-14 15:22:34,154 - 11.0% addresses have been clustered
+2019-07-14 15:22:34,154 - 100% matching clustering!
+2019-07-14 15:22:34,161 - 10.0% addresses have been clustered
+2019-07-14 15:22:34,161 - 100% matching clustering!
+2019-07-14 15:22:34,170 - 21.0% addresses have been clustered
+2019-07-14 15:22:34,170 - 100% matching clustering!
+2019-07-14 15:22:34,193 - 71.0% addresses have been clustered
+2019-07-14 15:22:34,193 - 100% matching clustering!
+2019-07-14 15:22:34,199 - 6.0% addresses have been clustered
+2019-07-14 15:22:34,199 - 100% matching clustering!
+2019-07-14 15:22:34,205 - 33.0% addresses have been clustered
+2019-07-14 15:22:34,206 - 100% matching clustering!
+2019-07-14 15:22:34,213 - 28.999999999999996% addresses have been clustered
+2019-07-14 15:22:34,213 - 100% matching clustering!
+2019-07-14 15:22:34,222 - 25.0% addresses have been clustered
+2019-07-14 15:22:34,223 - 100% matching clustering!
+2019-07-14 15:22:34,229 - 67.0% addresses have been clustered
+2019-07-14 15:22:34,229 - 100% matching clustering!
+2019-07-14 15:22:34,237 - 50.0% addresses have been clustered
+2019-07-14 15:22:34,237 - 100% matching clustering!
+2019-07-14 15:22:34,244 - 7.000000000000001% addresses have been clustered
+2019-07-14 15:22:34,245 - 100% matching clustering!
+2019-07-14 15:22:34,252 - 25.0% addresses have been clustered
+2019-07-14 15:22:34,252 - 100% matching clustering!
+2019-07-14 15:22:34,262 - 25.0% addresses have been clustered
+2019-07-14 15:22:34,262 - 100% matching clustering!
+2019-07-14 15:22:34,268 - 50.0% addresses have been clustered
+2019-07-14 15:22:34,268 - 100% matching clustering!
+2019-07-14 15:22:34,591 - findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0.
+2019-07-14 15:22:34,593 - findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,593 - findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,594 - findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,595 - findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal regular normal>) = 10.05
+2019-07-14 15:22:34,596 - findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal regular normal>) = 10.05
+2019-07-14 15:22:34,597 - findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal bold normal>) = 0.33499999999999996
+2019-07-14 15:22:34,597 - findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,598 - findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,598 - findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,599 - findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,599 - findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,600 - findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,600 - findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,600 - findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal bold normal>) = 11.335
+2019-07-14 15:22:34,600 - findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,600 - findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal regular normal>) = 10.05
+2019-07-14 15:22:34,601 - findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,601 - findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,601 - findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+2019-07-14 15:22:34,601 - findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,601 - findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,601 - findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal regular normal>) = 10.05
+2019-07-14 15:22:34,603 - findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,603 - findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal regular normal>) = 10.05
+2019-07-14 15:22:34,604 - findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,604 - findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,604 - findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2019-07-14 15:22:34,605 - findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,605 - findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,605 - findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+2019-07-14 15:22:34,606 - findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,607 - findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,607 - findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,608 - findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal regular normal>) = 10.05
+2019-07-14 15:22:34,608 - findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal bold normal>) = 1.335
+2019-07-14 15:22:34,608 - findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal regular normal>) = 10.05
+2019-07-14 15:22:34,609 - findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,609 - findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,610 - findfont: score(<Font 'FangSong' (simfang.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,610 - findfont: score(<Font 'Adobe Caslon Pro' (ACaslonPro-BoldItalic.otf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,612 - findfont: score(<Font 'MS Gothic' (msgothic.ttc) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,612 - findfont: score(<Font 'Microsoft Tai Le' (taileb.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,612 - findfont: score(<Font 'FZYaoTi' (FZYTK.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,613 - findfont: score(<Font 'Roboto' (Roboto-Regular.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,614 - findfont: score(<Font 'Calibri' (calibrii.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,614 - findfont: score(<Font 'Symbol' (symbol.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,615 - findfont: score(<Font 'Adobe Caslon Pro' (ACaslonPro-SemiboldItalic.otf) italic normal semibold normal>) = 11.24
+2019-07-14 15:22:34,616 - findfont: score(<Font 'Lucida Fax' (LFAX.TTF) normal normal regular normal>) = 10.05
+2019-07-14 15:22:34,616 - findfont: score(<Font 'Playbill' (PLAYBILL.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,616 - findfont: score(<Font 'Jokerman' (JOKERMAN.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,616 - findfont: score(<Font 'Arial' (arialbd.ttf) normal normal bold normal>) = 6.698636363636363
+2019-07-14 15:22:34,617 - findfont: score(<Font 'Matura MT Script Capitals' (MATURASC.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,617 - findfont: score(<Font 'Kozuka Gothic Pr6N' (KozGoPr6N-Heavy.otf) normal normal 700 normal>) = 10.335
+2019-07-14 15:22:34,617 - findfont: score(<Font 'Segoe UI' (segoeuiz.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,617 - findfont: score(<Font 'Kozuka Mincho Pro' (KozMinPro-Heavy.otf) normal normal 700 normal>) = 10.335
+2019-07-14 15:22:34,617 - findfont: score(<Font 'Consolas' (consolai.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,617 - findfont: score(<Font 'Cambria' (cambriai.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,618 - findfont: score(<Font 'Microsoft Sans Serif' (micross.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,618 - findfont: score(<Font 'Palatino Linotype' (palai.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,618 - findfont: score(<Font 'STZhongsong' (STZHONGS.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,618 - findfont: score(<Font 'Trebuchet MS' (trebuc.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,618 - findfont: score(<Font 'Comic Sans MS' (comic.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,618 - findfont: score(<Font 'Stencil' (STENCIL.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,618 - findfont: score(<Font 'Chaparral Pro' (ChaparralPro-LightIt.otf) italic normal light normal>) = 11.24
+2019-07-14 15:22:34,618 - findfont: score(<Font 'Kozuka Mincho Pro' (KozMinPro-Medium.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,619 - findfont: score(<Font 'Palatino Linotype' (pala.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,621 - findfont: score(<Font 'Calibri' (calibril.ttf) normal normal light normal>) = 10.24
+2019-07-14 15:22:34,621 - findfont: score(<Font 'Segoe UI' (seguili.ttf) italic normal light normal>) = 11.24
+2019-07-14 15:22:34,621 - findfont: score(<Font 'Segoe Print' (segoeprb.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,621 - findfont: score(<Font 'Consolas' (consolaz.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,622 - findfont: score(<Font 'Blackoak Std' (BlackoakStd.otf) normal normal black normal>) = 10.525
+2019-07-14 15:22:34,622 - findfont: score(<Font 'FZLanTingHeiS-UL-GB' (FZLTCXHJW.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,622 - findfont: score(<Font 'Segoe UI' (segoeui.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,622 - findfont: score(<Font 'Kozuka Mincho Pro' (KozMinPro-ExtraLight.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,622 - findfont: score(<Font 'Lucida Bright' (LucidaBrightDemiItalic.ttf) italic normal demibold normal>) = 11.24
+2019-07-14 15:22:34,622 - findfont: score(<Font 'Microsoft Yi Baiti' (msyi.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,623 - findfont: score(<Font 'Myriad Arabic' (MyriadArabic-It.otf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,623 - findfont: score(<Font 'Gadugi' (gadugib.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,623 - findfont: score(<Font 'Trebuchet MS' (trebucbi.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,623 - findfont: score(<Font 'Vladimir Script' (VLADIMIR.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,623 - findfont: score(<Font 'Arial' (ARIALNI.TTF) italic normal 400 condensed>) = 7.613636363636363
+2019-07-14 15:22:34,623 - findfont: score(<Font 'Kozuka Gothic Pro' (KozGoPro-Light.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,623 - findfont: score(<Font 'Segoe Script' (segoesc.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,624 - findfont: score(<Font 'Book Antiqua' (ANTQUABI.TTF) italic normal book normal>) = 11.05
+2019-07-14 15:22:34,624 - findfont: score(<Font 'Courier New' (courbi.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,624 - findfont: score(<Font 'Broadway' (BROADW.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,624 - findfont: score(<Font 'Britannic Bold' (BRITANIC.TTF) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,624 - findfont: score(<Font 'Mistral' (MISTRAL.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,624 - findfont: score(<Font 'Lithos Pro' (LithosPro-Black.otf) normal normal black normal>) = 10.525
+2019-07-14 15:22:34,624 - findfont: score(<Font 'Myriad Pro' (MyriadPro-Bold.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,624 - findfont: score(<Font 'Bookshelf Symbol 7' (BSSYM7.TTF) normal normal book normal>) = 10.05
+2019-07-14 15:22:34,625 - findfont: score(<Font 'STSong' (STSONG.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,625 - findfont: score(<Font 'Lucida Fax' (LFAXI.TTF) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,625 - findfont: score(<Font 'Centaur' (CENTAUR.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,625 - findfont: score(<Font 'Franklin Gothic Medium' (framd.ttf) normal normal medium normal>) = 10.145
+2019-07-14 15:22:34,625 - findfont: score(<Font 'Microsoft PhagsPa' (phagspa.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,625 - findfont: score(<Font 'Myriad Hebrew' (MyriadHebrew-Bold.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,625 - findfont: score(<Font 'Georgia' (georgiaz.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,626 - findfont: score(<Font 'STLiti' (STLITI.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,626 - findfont: score(<Font 'Segoe UI' (seguibli.ttf) italic normal black normal>) = 11.525
+2019-07-14 15:22:34,626 - findfont: score(<Font 'Roboto' (Roboto-BoldItalic.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,626 - findfont: score(<Font 'Myriad Pro' (MyriadPro-CondIt.otf) italic normal 400 condensed>) = 11.25
+2019-07-14 15:22:34,626 - findfont: score(<Font 'Chiller' (CHILLER.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,626 - findfont: score(<Font 'Myriad Pro' (MyriadPro-BoldCondIt.otf) italic normal bold condensed>) = 11.535
+2019-07-14 15:22:34,627 - findfont: score(<Font 'Kozuka Gothic Pro' (KozGoPro-Medium.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,627 - findfont: score(<Font 'Myriad Pro' (MyriadPro-BoldCond.otf) normal normal bold condensed>) = 10.535
+2019-07-14 15:22:34,627 - findfont: score(<Font 'Magneto' (MAGNETOB.TTF) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,628 - findfont: score(<Font 'Letter Gothic Std' (LetterGothicStd-Slanted.otf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,628 - findfont: score(<Font 'Californian FB' (CALIFB.TTF) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,628 - findfont: score(<Font 'Courier New' (cour.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,628 - findfont: score(<Font 'Wingdings 2' (WINGDNG2.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,629 - findfont: score(<Font 'Times New Roman' (timesbd.ttf) normal normal roman normal>) = 10.145
+2019-07-14 15:22:34,629 - findfont: score(<Font 'Nueva Std' (NuevaStd-BoldCondItalic.otf) italic normal bold condensed>) = 11.535
+2019-07-14 15:22:34,630 - findfont: score(<Font 'Microsoft New Tai Lue' (ntailub.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,630 - findfont: score(<Font 'Adobe Caslon Pro' (ACaslonPro-Semibold.otf) normal normal semibold normal>) = 10.24
+2019-07-14 15:22:34,630 - findfont: score(<Font 'Cambria' (cambriab.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,631 - findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique_0.ttf) oblique normal 400 normal>) = 11.05
+2019-07-14 15:22:34,631 - findfont: score(<Font 'STXihei' (STXIHEI.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,632 - findfont: score(<Font 'KaiTi' (simkai.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,632 - findfont: score(<Font 'Berlin Sans FB' (BRLNSB.TTF) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,632 - findfont: score(<Font 'Tekton Pro' (TektonPro-BoldObl.otf) oblique normal bold normal>) = 11.335
+2019-07-14 15:22:34,633 - findfont: score(<Font 'Stencil Std' (StencilStd.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,633 - findfont: score(<Font 'Segoe UI Historic' (seguihis.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,633 - findfont: score(<Font 'Kozuka Mincho Pro' (KozMinPro-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,633 - findfont: score(<Font 'Verdana' (verdanai.ttf) italic normal 400 normal>) = 4.6863636363636365
+2019-07-14 15:22:34,633 - findfont: score(<Font 'Kozuka Gothic Pro' (KozGoPro-ExtraLight.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,634 - findfont: score(<Font 'Microsoft PhagsPa' (phagspab.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,634 - findfont: score(<Font 'DengXian' (Dengl.ttf) normal normal light normal>) = 10.24
+2019-07-14 15:22:34,634 - findfont: score(<Font 'Kozuka Mincho Pr6N' (KozMinPr6N-Heavy.otf) normal normal 700 normal>) = 10.335
+2019-07-14 15:22:34,634 - findfont: score(<Font 'Book Antiqua' (ANTQUAI.TTF) italic normal book normal>) = 11.05
+2019-07-14 15:22:34,634 - findfont: score(<Font 'Orator Std' (OratorStd.otf) normal normal medium normal>) = 10.145
+2019-07-14 15:22:34,634 - findfont: score(<Font 'Leelawadee UI' (LeelUIsl.ttf) normal normal light normal>) = 10.24
+2019-07-14 15:22:34,634 - findfont: score(<Font 'Bell MT' (BELLB.TTF) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,634 - findfont: score(<Font 'Book Antiqua' (ANTQUAB.TTF) normal normal book normal>) = 10.05
+2019-07-14 15:22:34,635 - findfont: score(<Font 'Arial' (ARIALNB.TTF) normal normal bold condensed>) = 6.8986363636363635
+2019-07-14 15:22:34,635 - findfont: score(<Font 'Kozuka Gothic Pr6N' (KozGoPr6N-Medium.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,635 - findfont: score(<Font 'Kozuka Gothic Pro' (KozGoPro-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,635 - findfont: score(<Font 'Nueva Std' (NuevaStd-Bold.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,635 - findfont: score(<Font 'Garamond' (GARA.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,635 - findfont: score(<Font 'Candara' (Candara.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,635 - findfont: score(<Font 'Microsoft Himalaya' (himalaya.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,636 - findfont: score(<Font 'Bernard MT Condensed' (BERNHC.TTF) normal normal 400 condensed>) = 10.25
+2019-07-14 15:22:34,636 - findfont: score(<Font 'Lobster' (Lobster-Regular.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,636 - findfont: score(<Font 'Corbel' (corbelb.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,636 - findfont: score(<Font 'Segoe UI' (segoeuib.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,636 - findfont: score(<Font 'Wide Latin' (LATINWD.TTF) normal normal 400 expanded>) = 10.25
+2019-07-14 15:22:34,636 - findfont: score(<Font 'Tahoma' (tahomabd.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,637 - findfont: score(<Font 'Microsoft YaHei' (msyhl.ttc) normal normal light normal>) = 10.24
+2019-07-14 15:22:34,637 - findfont: score(<Font 'Niagara Solid' (NIAGSOL.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,637 - findfont: score(<Font 'Nirmala UI' (NirmalaS.ttf) normal normal light normal>) = 10.24
+2019-07-14 15:22:34,637 - findfont: score(<Font 'Segoe UI' (seguisbi.ttf) italic normal semibold normal>) = 11.24
+2019-07-14 15:22:34,637 - findfont: score(<Font 'Lucida Fax' (LFAXD.TTF) normal normal demibold normal>) = 10.24
+2019-07-14 15:22:34,637 - findfont: score(<Font 'Adobe Arabic' (AdobeArabic-Bold.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,637 - findfont: score(<Font 'Myriad Hebrew' (MyriadHebrew-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,637 - findfont: score(<Font 'Lucida Fax' (LFAXDI.TTF) italic normal demibold normal>) = 11.24
+2019-07-14 15:22:34,638 - findfont: score(<Font 'Corbel' (corbelz.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,638 - findfont: score(<Font 'Trebuchet MS' (trebucbd.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,638 - findfont: score(<Font 'Times New Roman' (times.ttf) normal normal roman normal>) = 10.145
+2019-07-14 15:22:34,638 - findfont: score(<Font 'Segoe UI' (seguibl.ttf) normal normal black normal>) = 10.525
+2019-07-14 15:22:34,638 - findfont: score(<Font 'Calibri' (calibrib.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,638 - findfont: score(<Font 'Constantia' (constan.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,639 - findfont: score(<Font 'Berlin Sans FB Demi' (BRLNSDB.TTF) normal normal demi normal>) = 10.24
+2019-07-14 15:22:34,639 - findfont: score(<Font 'Segoe UI' (seguisli.ttf) italic normal light normal>) = 11.24
+2019-07-14 15:22:34,639 - findfont: score(<Font 'Myriad Pro' (MyriadPro-SemiboldIt.otf) italic normal semibold normal>) = 11.24
+2019-07-14 15:22:34,639 - findfont: score(<Font 'Franklin Gothic Medium' (framdit.ttf) italic normal medium normal>) = 11.145
+2019-07-14 15:22:34,639 - findfont: score(<Font 'Kozuka Gothic Pr6N' (KozGoPr6N-Bold.otf) normal normal 700 normal>) = 10.335
+2019-07-14 15:22:34,639 - findfont: score(<Font 'Tekton Pro' (TektonPro-BoldCond.otf) normal normal bold condensed>) = 10.535
+2019-07-14 15:22:34,639 - findfont: score(<Font 'Ravie' (RAVIE.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,639 - findfont: score(<Font 'SimSun' (simsun.ttc) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,640 - findfont: score(<Font 'Roboto Slab' (RobotoSlab-Regular.ttf) normal normal regular normal>) = 10.05
+2019-07-14 15:22:34,640 - findfont: score(<Font 'Malgun Gothic' (malgun.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,640 - findfont: score(<Font 'Lucida Bright' (LBRITEDI.TTF) italic normal demibold normal>) = 11.24
+2019-07-14 15:22:34,640 - findfont: score(<Font 'Gabriola' (Gabriola.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,640 - findfont: score(<Font 'Adobe Devanagari' (AdobeDevanagari-BoldItalic.otf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,640 - findfont: score(<Font 'HoloLens MDL2 Assets' (holomdl2.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,640 - findfont: score(<Font 'Informal Roman' (INFROMAN.TTF) normal normal roman normal>) = 10.145
+2019-07-14 15:22:34,641 - findfont: score(<Font 'Arial' (ariblk.ttf) normal normal black normal>) = 6.888636363636364
+2019-07-14 15:22:34,641 - findfont: score(<Font 'Myriad Arabic' (MyriadArabic-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,641 - findfont: score(<Font 'Bauhaus 93' (BAUHS93.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,641 - findfont: score(<Font 'Adobe Garamond Pro' (AGaramondPro-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,641 - findfont: score(<Font 'DengXian' (Deng.ttf) normal normal regular normal>) = 10.05
+2019-07-14 15:22:34,641 - findfont: score(<Font 'Gadugi' (gadugi.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,641 - findfont: score(<Font 'Myriad Arabic' (MyriadArabic-BoldIt.otf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,642 - findfont: score(<Font 'Harlow Solid Italic' (HARLOWSI.TTF) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,642 - findfont: score(<Font 'Open Sans' (OpenSans-Italic.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,642 - findfont: score(<Font 'Footlight MT Light' (FTLTLT.TTF) normal normal light normal>) = 10.24
+2019-07-14 15:22:34,642 - findfont: score(<Font 'Myriad Pro' (MyriadPro-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,643 - findfont: score(<Font 'Myanmar Text' (mmrtextb.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,643 - findfont: score(<Font 'Courier New' (courbd.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,644 - findfont: score(<Font 'Bookman Old Style' (BOOKOSBI.TTF) italic normal book normal>) = 11.05
+2019-07-14 15:22:34,644 - findfont: score(<Font 'Kozuka Mincho Pr6N' (KozMinPr6N-ExtraLight.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,644 - findfont: score(<Font 'Consolas' (consola.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,645 - findfont: score(<Font 'Trebuchet MS' (trebucit.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,645 - findfont: score(<Font 'Orator Std' (OratorStd-Slanted.otf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,645 - findfont: score(<Font 'Kozuka Mincho Pro' (KozMinPro-Bold.otf) normal normal 700 normal>) = 10.335
+2019-07-14 15:22:34,645 - findfont: score(<Font 'Giddyup Std' (GiddyupStd.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,646 - findfont: score(<Font 'Arial' (ariali.ttf) italic normal 400 normal>) = 7.413636363636363
+2019-07-14 15:22:34,646 - findfont: score(<Font 'Adobe Garamond Pro' (AGaramondPro-Bold.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,646 - findfont: score(<Font 'Parchment' (PARCHM.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,646 - findfont: score(<Font 'Adobe Hebrew' (AdobeHebrew-Bold.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,646 - findfont: score(<Font 'STFangsong' (STFANGSO.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,647 - findfont: score(<Font 'Kozuka Gothic Pr6N' (KozGoPr6N-ExtraLight.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,647 - findfont: score(<Font 'Kozuka Gothic Pr6N' (KozGoPr6N-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,647 - findfont: score(<Font 'Lucida Console' (lucon.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,647 - findfont: score(<Font 'Modern No. 20' (MOD20.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,647 - findfont: score(<Font 'Corbel' (corbeli.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,647 - findfont: score(<Font 'Adobe Arabic' (AdobeArabic-Regular.otf) normal normal regular normal>) = 10.05
+2019-07-14 15:22:34,647 - findfont: score(<Font 'OCR A Std' (OCRAStd.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,647 - findfont: score(<Font 'Bell MT' (BELLI.TTF) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,648 - findfont: score(<Font 'Lucida Calligraphy' (LCALLIG.TTF) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,648 - findfont: score(<Font 'Chaparral Pro' (ChaparralPro-Bold.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,648 - findfont: score(<Font 'Cambria' (cambria.ttc) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,649 - findfont: score(<Font 'Raleway' (Raleway-Regular.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,649 - findfont: score(<Font 'Verdana' (verdanab.ttf) normal normal bold normal>) = 3.9713636363636367
+2019-07-14 15:22:34,649 - findfont: score(<Font 'Chaparral Pro' (ChaparralPro-BoldIt.otf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,649 - findfont: score(<Font 'STXingkai' (STXINGKA.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,649 - findfont: score(<Font 'Minion Pro' (MinionPro-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,649 - findfont: score(<Font 'Comic Sans MS' (comicbd.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,650 - findfont: score(<Font 'Letter Gothic Std' (LetterGothicStd-Bold.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,650 - findfont: score(<Font 'Microsoft YaHei' (msyhbd.ttc) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,650 - findfont: score(<Font 'Impact' (impact.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,650 - findfont: score(<Font 'Adobe Arabic' (AdobeArabic-Italic.otf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,650 - findfont: score(<Font 'Roboto' (Roboto-Italic.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,650 - findfont: score(<Font 'Adobe Song Std' (AdobeSongStd-Light.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,650 - findfont: score(<Font 'Arial' (arial.ttf) normal normal 400 normal>) = 6.413636363636363
+2019-07-14 15:22:34,651 - findfont: score(<Font 'Kozuka Gothic Pro' (KozGoPro-Heavy.otf) normal normal 700 normal>) = 10.335
+2019-07-14 15:22:34,651 - findfont: score(<Font 'Adobe Ming Std' (AdobeMingStd-Light.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,651 - findfont: score(<Font 'DengXian' (Dengb.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,651 - findfont: score(<Font 'Kunstler Script' (KUNSTLER.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,651 - findfont: score(<Font 'Berlin Sans FB' (BRLNSR.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,651 - findfont: score(<Font 'Century Gothic' (GOTHIC.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,651 - findfont: score(<Font 'Book Antiqua' (BKANT.TTF) normal normal book normal>) = 10.05
+2019-07-14 15:22:34,651 - findfont: score(<Font 'Adobe Gothic Std' (AdobeGothicStd-Bold.otf) normal normal 700 normal>) = 10.335
+2019-07-14 15:22:34,652 - findfont: score(<Font 'Lucida Sans' (LucidaSansRegular.ttf) normal normal regular normal>) = 10.05
+2019-07-14 15:22:34,652 - findfont: score(<Font 'Adobe Garamond Pro' (AGaramondPro-Italic.otf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,652 - findfont: score(<Font 'Nueva Std' (NuevaStd-BoldCond.otf) normal normal bold condensed>) = 10.535
+2019-07-14 15:22:34,652 - findfont: score(<Font 'Droid Serif' (DroidSerif-BoldItalic.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,652 - findfont: score(<Font 'Segoe UI Symbol' (seguisym.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,652 - findfont: score(<Font 'Rosewood Std' (RosewoodStd-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,652 - findfont: score(<Font 'Trajan Pro' (TrajanPro-Bold.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,653 - findfont: score(<Font 'Corbel' (corbel.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,653 - findfont: score(<Font 'Cooper Black' (COOPBL.TTF) normal normal black normal>) = 10.525
+2019-07-14 15:22:34,653 - findfont: score(<Font 'Trajan Pro' (TrajanPro-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,653 - findfont: score(<Font 'Arial' (arialbi.ttf) italic normal bold normal>) = 7.698636363636363
+2019-07-14 15:22:34,653 - findfont: score(<Font 'Californian FB' (CALIFR.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,653 - findfont: score(<Font 'Hobo Std' (HoboStd.otf) normal normal medium normal>) = 10.145
+2019-07-14 15:22:34,653 - findfont: score(<Font 'Consolas' (consolab.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,653 - findfont: score(<Font 'Calibri' (calibriz.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,654 - findfont: score(<Font 'Minion Pro' (MinionPro-Semibold.otf) normal normal semibold normal>) = 10.24
+2019-07-14 15:22:34,654 - findfont: score(<Font 'Bookman Old Style' (BOOKOSB.TTF) normal normal book normal>) = 10.05
+2019-07-14 15:22:34,654 - findfont: score(<Font 'Letter Gothic Std' (LetterGothicStd-BoldSlanted.otf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,654 - findfont: score(<Font 'Ink Free' (Inkfree.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,654 - findfont: score(<Font 'Poor Richard' (POORICH.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,654 - findfont: score(<Font 'Georgia' (georgiai.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,654 - findfont: score(<Font 'Leelawadee UI' (LeelawUI.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,655 - findfont: score(<Font 'Tekton Pro' (TektonPro-BoldExt.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,655 - findfont: score(<Font 'Constantia' (constani.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,655 - findfont: score(<Font 'Kozuka Gothic Pr6N' (KozGoPr6N-Light.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,655 - findfont: score(<Font 'Minion Pro' (MinionPro-Bold.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,655 - findfont: score(<Font 'Adobe Devanagari' (AdobeDevanagari-Bold.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,655 - findfont: score(<Font 'Viner Hand ITC' (VINERITC.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,655 - findfont: score(<Font 'Comic Sans MS' (comicz.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,655 - findfont: score(<Font 'MS Reference Specialty' (REFSPCL.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,656 - findfont: score(<Font 'Arvo' (Arvo-Bold.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,656 - findfont: score(<Font 'Arvo' (Arvo-BoldItalic.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,656 - findfont: score(<Font 'Palatino Linotype' (palabi.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,656 - findfont: score(<Font 'SimHei' (simhei.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,656 - findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold_0.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,656 - findfont: score(<Font 'Lucida Bright' (LucidaBrightDemiBold.ttf) normal normal demibold normal>) = 10.24
+2019-07-14 15:22:34,656 - findfont: score(<Font 'Freestyle Script' (FREESCPT.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,657 - findfont: score(<Font 'MingLiU-ExtB' (mingliub.ttc) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,657 - findfont: score(<Font 'Adobe Fan Heiti Std' (AdobeFanHeitiStd-Bold.otf) normal normal 700 normal>) = 10.335
+2019-07-14 15:22:34,657 - findfont: score(<Font 'Sitka Small' (SitkaB.ttc) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,657 - findfont: score(<Font 'Verdana' (verdana.ttf) normal normal 400 normal>) = 3.6863636363636365
+2019-07-14 15:22:34,657 - findfont: score(<Font 'Malgun Gothic' (malgunsl.ttf) normal normal light normal>) = 10.24
+2019-07-14 15:22:34,657 - findfont: score(<Font 'Constantia' (constanb.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,657 - findfont: score(<Font 'Adobe Arabic' (AdobeArabic-BoldItalic.otf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,658 - findfont: score(<Font 'SimSun-ExtB' (simsunb.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,658 - findfont: score(<Font 'Yu Gothic' (YuGothB.ttc) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,658 - findfont: score(<Font 'Adobe Garamond Pro' (AGaramondPro-BoldItalic.otf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,658 - findfont: score(<Font 'Tempus Sans ITC' (TEMPSITC.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,658 - findfont: score(<Font 'Bookman Old Style' (BOOKOSI.TTF) italic normal book normal>) = 11.05
+2019-07-14 15:22:34,658 - findfont: score(<Font 'Kozuka Mincho Pr6N' (KozMinPr6N-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,658 - findfont: score(<Font 'Microsoft New Tai Lue' (ntailu.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,658 - findfont: score(<Font 'Adobe Fangsong Std' (AdobeFangsongStd-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,659 - findfont: score(<Font 'Lucida Bright' (LBRITED.TTF) normal normal demibold normal>) = 10.24
+2019-07-14 15:22:34,659 - findfont: score(<Font 'Kozuka Mincho Pr6N' (KozMinPr6N-Light.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,659 - findfont: score(<Font 'Calibri' (calibri.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,660 - findfont: score(<Font 'Kozuka Mincho Pr6N' (KozMinPr6N-Medium.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,660 - findfont: score(<Font 'Microsoft JhengHei' (msjh.ttc) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,661 - findfont: score(<Font 'Colonna MT' (COLONNA.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,662 - findfont: score(<Font 'Yu Gothic' (YuGothM.ttc) normal normal medium normal>) = 10.145
+2019-07-14 15:22:34,662 - findfont: score(<Font 'Birch Std' (BirchStd.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,663 - findfont: score(<Font 'Malgun Gothic' (malgunbd.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,663 - findfont: score(<Font 'Lithos Pro' (LithosPro-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,663 - findfont: score(<Font 'Kozuka Gothic Pro' (KozGoPro-Bold.otf) normal normal 700 normal>) = 10.335
+2019-07-14 15:22:34,664 - findfont: score(<Font 'Vivaldi' (VIVALDII.TTF) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,664 - findfont: score(<Font 'Myriad Pro' (MyriadPro-It.otf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,664 - findfont: score(<Font 'Comic Sans MS' (comici.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,664 - findfont: score(<Font 'Segoe UI' (segoeuisl.ttf) normal normal light normal>) = 10.24
+2019-07-14 15:22:34,664 - findfont: score(<Font 'Arvo' (Arvo-Italic.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,664 - findfont: score(<Font 'Niagara Engraved' (NIAGENG.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,665 - findfont: score(<Font 'Bodoni MT' (BOD_PSTC.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,665 - findfont: score(<Font 'Juice ITC' (JUICE___.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,665 - findfont: score(<Font 'Adobe Myungjo Std' (AdobeMyungjoStd-Medium.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,665 - findfont: score(<Font 'Adobe Kaiti Std' (AdobeKaitiStd-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,665 - findfont: score(<Font 'Javanese Text' (javatext.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,665 - findfont: score(<Font 'Prestige Elite Std' (PrestigeEliteStd-Bd.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,665 - findfont: score(<Font 'Wingdings' (wingding.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,666 - findfont: score(<Font 'Roboto' (Roboto-Bold.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,666 - findfont: score(<Font 'MV Boli' (mvboli.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,666 - findfont: score(<Font 'Arvo' (Arvo-Regular.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,666 - findfont: score(<Font 'Century Gothic' (GOTHICB.TTF) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,667 - findfont: score(<Font 'Webdings' (webdings.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,667 - findfont: score(<Font 'Poplar Std' (PoplarStd.otf) normal normal black normal>) = 10.525
+2019-07-14 15:22:34,667 - findfont: score(<Font 'Cooper Std' (CooperBlackStd-Italic.otf) italic normal black normal>) = 11.525
+2019-07-14 15:22:34,667 - findfont: score(<Font 'Myriad Pro' (MyriadPro-Cond.otf) normal normal 400 condensed>) = 10.25
+2019-07-14 15:22:34,668 - findfont: score(<Font 'Myanmar Text' (mmrtext.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,668 - findfont: score(<Font 'Onyx' (ONYX.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,668 - findfont: score(<Font 'Palatino Linotype' (palab.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,668 - findfont: score(<Font 'Minion Pro' (MinionPro-BoldCnIt.otf) italic normal bold condensed>) = 11.535
+2019-07-14 15:22:34,668 - findfont: score(<Font 'FZShuTi' (FZSTK.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,669 - findfont: score(<Font 'Lucida Sans Typewriter' (LucidaTypewriterRegular.ttf) normal normal regular normal>) = 10.05
+2019-07-14 15:22:34,669 - findfont: score(<Font 'Brush Script MT' (BRUSHSCI.TTF) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,669 - findfont: score(<Font 'LiSu' (SIMLI.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,670 - findfont: score(<Font 'STHupo' (STHUPO.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,670 - findfont: score(<Font 'Georgia' (georgia.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,670 - findfont: score(<Font 'Microsoft YaHei' (msyh.ttc) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,670 - findfont: score(<Font 'Baskerville Old Face' (BASKVILL.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,671 - findfont: score(<Font 'Adobe Devanagari' (AdobeDevanagari-Italic.otf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,671 - findfont: score(<Font 'Raleway' (Raleway-Bold.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,671 - findfont: score(<Font 'Tahoma' (tahoma.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,671 - findfont: score(<Font 'Minion Pro' (MinionPro-Medium.otf) normal normal medium normal>) = 10.145
+2019-07-14 15:22:34,671 - findfont: score(<Font 'Segoe UI' (segoeuil.ttf) normal normal light normal>) = 10.24
+2019-07-14 15:22:34,671 - findfont: score(<Font 'YouYuan' (SIMYOU.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,672 - findfont: score(<Font 'Lucida Sans Unicode' (l_10646.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,672 - findfont: score(<Font 'Minion Pro' (MinionPro-SemiboldIt.otf) italic normal semibold normal>) = 11.24
+2019-07-14 15:22:34,672 - findfont: score(<Font 'Myriad Pro' (MyriadPro-Semibold.otf) normal normal semibold normal>) = 10.24
+2019-07-14 15:22:34,672 - findfont: score(<Font 'Cooper Std' (CooperBlackStd.otf) normal normal black normal>) = 10.525
+2019-07-14 15:22:34,672 - findfont: score(<Font 'Garamond' (GARAIT.TTF) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,672 - findfont: score(<Font 'Letter Gothic Std' (LetterGothicStd.otf) normal normal medium normal>) = 10.145
+2019-07-14 15:22:34,672 - findfont: score(<Font 'Segoe MDL2 Assets' (segmdl2.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,673 - findfont: score(<Font 'Roboto Condensed' (RobotoCondensed-Regular.ttf) normal normal 400 condensed>) = 10.25
+2019-07-14 15:22:34,673 - findfont: score(<Font 'Minion Pro' (MinionPro-It.otf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,673 - findfont: score(<Font 'High Tower Text' (HTOWERT.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,673 - findfont: score(<Font 'Wingdings 3' (WINGDNG3.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,673 - findfont: score(<Font 'Segoe UI' (seguisb.ttf) normal normal semibold normal>) = 10.24
+2019-07-14 15:22:34,673 - findfont: score(<Font 'Bookman Old Style' (BOOKOS.TTF) normal normal book normal>) = 10.05
+2019-07-14 15:22:34,674 - findfont: score(<Font 'STCaiyun' (STCAIYUN.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,674 - findfont: score(<Font 'Sylfaen' (sylfaen.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,674 - findfont: score(<Font 'Segoe UI' (segoeuii.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,674 - findfont: score(<Font 'Ebrima' (ebrimabd.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,674 - findfont: score(<Font 'Chaparral Pro' (ChaparralPro-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,674 - findfont: score(<Font 'Cambria' (cambriaz.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,674 - findfont: score(<Font 'Segoe Script' (segoescb.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,675 - findfont: score(<Font 'Old English Text MT' (OLDENGL.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,675 - findfont: score(<Font 'Times New Roman' (timesbi.ttf) italic normal roman normal>) = 11.145
+2019-07-14 15:22:34,675 - findfont: score(<Font 'STXinwei' (STXINWEI.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,675 - findfont: score(<Font 'Century Gothic' (GOTHICI.TTF) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,675 - findfont: score(<Font 'Arial' (ARIALNBI.TTF) italic normal bold condensed>) = 7.8986363636363635
+2019-07-14 15:22:34,675 - findfont: score(<Font 'Adobe Caslon Pro' (ACaslonPro-Bold.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,675 - findfont: score(<Font 'Candara' (Candaraz.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,676 - findfont: score(<Font 'Adobe Hebrew' (AdobeHebrew-Italic.otf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,676 - findfont: score(<Font 'Myriad Pro' (MyriadPro-BoldIt.otf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,676 - findfont: score(<Font 'Adobe Caslon Pro' (ACaslonPro-Italic.otf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,677 - findfont: score(<Font 'High Tower Text' (HTOWERTI.TTF) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,677 - findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique_0.ttf) oblique normal bold normal>) = 11.335
+2019-07-14 15:22:34,677 - findfont: score(<Font 'Droid Serif' (DroidSerif.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,678 - findfont: score(<Font 'Myriad Hebrew' (MyriadHebrew-BoldIt.otf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,678 - findfont: score(<Font 'Charlemagne Std' (CharlemagneStd-Bold.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,679 - findfont: score(<Font 'Arial Unicode MS' (ARIALUNI.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,679 - findfont: score(<Font 'Nueva Std' (NuevaStd-Cond.otf) normal normal 400 condensed>) = 10.25
+2019-07-14 15:22:34,679 - findfont: score(<Font 'Ebrima' (ebrima.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,680 - findfont: score(<Font 'Bahnschrift' (bahnschrift.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,680 - findfont: score(<Font 'Poiret One' (PoiretOne-Regular.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,680 - findfont: score(<Font 'Segoe Print' (segoepr.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,680 - findfont: score(<Font 'Lucida Bright' (LBRITEI.TTF) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,680 - findfont: score(<Font 'Showcard Gothic' (SHOWG.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,680 - findfont: score(<Font 'Roboto Condensed' (RobotoCondensed-Italic.ttf) italic normal 400 condensed>) = 11.25
+2019-07-14 15:22:34,680 - findfont: score(<Font 'Leelawadee UI' (LeelaUIb.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,681 - findfont: score(<Font 'Microsoft Tai Le' (taile.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,681 - findfont: score(<Font 'Century' (CENTURY.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,681 - findfont: score(<Font 'Courier New' (couri.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,681 - findfont: score(<Font 'Tekton Pro' (TektonPro-Bold.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,681 - findfont: score(<Font 'Kozuka Mincho Pro' (KozMinPro-Light.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,681 - findfont: score(<Font 'Open Sans' (OpenSans-Regular.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,681 - findfont: score(<Font 'Californian FB' (CALIFI.TTF) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,682 - findfont: score(<Font 'Lucida Sans Typewriter' (LucidaTypewriterBold.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,682 - findfont: score(<Font 'Georgia' (georgiab.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,682 - findfont: score(<Font 'Bell MT' (BELL.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,682 - findfont: score(<Font 'Roboto Condensed' (RobotoCondensed-Bold.ttf) normal normal bold condensed>) = 10.535
+2019-07-14 15:22:34,682 - findfont: score(<Font 'Segoe UI Emoji' (seguiemj.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,682 - findfont: score(<Font 'MS Reference Sans Serif' (REFSAN.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,682 - findfont: score(<Font 'Adobe Hebrew' (AdobeHebrew-BoldItalic.otf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,682 - findfont: score(<Font 'Lucida Handwriting' (LHANDW.TTF) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,683 - findfont: score(<Font 'Nirmala UI' (Nirmala.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,683 - findfont: score(<Font 'Adobe Hebrew' (AdobeHebrew-Regular.otf) normal normal regular normal>) = 10.05
+2019-07-14 15:22:34,683 - findfont: score(<Font 'Garamond' (GARABD.TTF) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,683 - findfont: score(<Font 'Myriad Arabic' (MyriadArabic-Bold.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,683 - findfont: score(<Font 'Minion Pro' (MinionPro-BoldCn.otf) normal normal bold condensed>) = 10.535
+2019-07-14 15:22:34,683 - findfont: score(<Font 'Snap ITC' (SNAP____.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,683 - findfont: score(<Font 'Nueva Std' (NuevaStd-Italic.otf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,683 - findfont: score(<Font 'Indie Flower' (IndieFlower.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,684 - findfont: score(<Font 'Candara' (Candarab.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,684 - findfont: score(<Font 'Sitka Small' (SitkaZ.ttc) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,684 - findfont: score(<Font 'Candara' (Candarai.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,684 - findfont: score(<Font 'Algerian' (ALGER.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,684 - findfont: score(<Font 'Nirmala UI' (NirmalaB.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,684 - findfont: score(<Font 'Sitka Small' (SitkaI.ttc) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,684 - findfont: score(<Font 'Minion Pro' (MinionPro-MediumIt.otf) italic normal medium normal>) = 11.145
+2019-07-14 15:22:34,685 - findfont: score(<Font 'Yu Gothic' (YuGothR.ttc) normal normal regular normal>) = 10.05
+2019-07-14 15:22:34,685 - findfont: score(<Font 'Kozuka Mincho Pr6N' (KozMinPr6N-Bold.otf) normal normal 700 normal>) = 10.335
+2019-07-14 15:22:34,685 - findfont: score(<Font 'Lucida Sans' (LucidaSansDemiBold.ttf) normal normal demibold normal>) = 10.24
+2019-07-14 15:22:34,685 - findfont: score(<Font 'Open Sans' (OpenSans-Bold.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,685 - findfont: score(<Font 'Open Sans' (OpenSans-BoldItalic.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,685 - findfont: score(<Font 'Myriad Hebrew' (MyriadHebrew-It.otf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,685 - findfont: score(<Font 'Mesquite Std' (MesquiteStd.otf) normal normal medium normal>) = 10.145
+2019-07-14 15:22:34,686 - findfont: score(<Font 'Adobe Heiti Std' (AdobeHeitiStd-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,686 - findfont: score(<Font 'Monotype Corsiva' (MTCORSVA.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,686 - findfont: score(<Font 'Century Gothic' (GOTHICBI.TTF) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,686 - findfont: score(<Font 'Nueva Std' (NuevaStd-CondItalic.otf) italic normal 400 condensed>) = 11.25
+2019-07-14 15:22:34,686 - findfont: score(<Font 'Roboto Slab' (RobotoSlab-Bold.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,686 - findfont: score(<Font 'Arial' (ARIALN.TTF) normal normal 400 condensed>) = 6.613636363636363
+2019-07-14 15:22:34,686 - findfont: score(<Font 'Adobe Caslon Pro' (ACaslonPro-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,686 - findfont: score(<Font 'Mongolian Baiti' (monbaiti.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,687 - findfont: score(<Font 'Calibri' (calibrili.ttf) italic normal light normal>) = 11.24
+2019-07-14 15:22:34,687 - findfont: score(<Font 'Times New Roman' (timesi.ttf) italic normal roman normal>) = 11.145
+2019-07-14 15:22:34,687 - findfont: score(<Font 'Harrington' (HARNGTON.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,687 - findfont: score(<Font 'STKaiti' (STKAITI.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,687 - findfont: score(<Font 'Adobe Devanagari' (AdobeDevanagari-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,687 - findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono_0.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,687 - findfont: score(<Font 'Microsoft JhengHei' (msjhl.ttc) normal normal light normal>) = 10.24
+2019-07-14 15:22:34,687 - findfont: score(<Font 'Minion Pro' (MinionPro-BoldIt.otf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,688 - findfont: score(<Font 'Droid Serif' (DroidSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,688 - findfont: score(<Font 'Roboto Condensed' (RobotoCondensed-BoldItalic.ttf) italic normal bold condensed>) = 11.535
+2019-07-14 15:22:34,688 - findfont: score(<Font 'Constantia' (constanz.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,688 - findfont: score(<Font 'Adobe Naskh' (AdobeNaskh-Medium.otf) normal normal medium normal>) = 10.145
+2019-07-14 15:22:34,688 - findfont: score(<Font 'Verdana' (verdanaz.ttf) italic normal bold normal>) = 4.971363636363637
+2019-07-14 15:22:34,688 - findfont: score(<Font 'Lucida Bright' (LucidaBrightItalic.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,688 - findfont: score(<Font 'Brush Script Std' (BrushScriptStd.otf) normal normal medium normal>) = 10.145
+2019-07-14 15:22:34,689 - findfont: score(<Font 'Yu Gothic' (YuGothL.ttc) normal normal light normal>) = 10.24
+2019-07-14 15:22:34,689 - findfont: score(<Font 'Sitka Small' (Sitka.ttc) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,689 - findfont: score(<Font 'Chaparral Pro' (ChaparralPro-Italic.otf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,689 - findfont: score(<Font 'Lucida Bright' (LBRITE.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,689 - findfont: score(<Font 'Kristen ITC' (ITCKRIST.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,689 - findfont: score(<Font 'Microsoft JhengHei' (msjhbd.ttc) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,689 - findfont: score(<Font 'Lucida Bright' (LucidaBrightRegular.ttf) normal normal regular normal>) = 10.05
+2019-07-14 15:22:34,690 - findfont: score(<Font 'Droid Serif' (DroidSerif-Bold.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,690 - findfont: score(<Font 'Marlett' (marlett.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,690 - findfont: score(<Font 'MT Extra' (MTEXTRA.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,690 - findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+2019-07-14 15:22:34,703 - findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+2019-07-14 15:22:34,703 - findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,703 - findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,703 - findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,703 - findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal regular normal>) = 10.05
+2019-07-14 15:22:34,704 - findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal regular normal>) = 10.05
+2019-07-14 15:22:34,704 - findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal bold normal>) = 0.33499999999999996
+2019-07-14 15:22:34,704 - findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,704 - findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,704 - findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,704 - findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,704 - findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,705 - findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,705 - findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,705 - findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal bold normal>) = 11.335
+2019-07-14 15:22:34,705 - findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,705 - findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal regular normal>) = 10.05
+2019-07-14 15:22:34,705 - findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,705 - findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,705 - findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+2019-07-14 15:22:34,706 - findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,706 - findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,706 - findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal regular normal>) = 10.05
+2019-07-14 15:22:34,706 - findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,706 - findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal regular normal>) = 10.05
+2019-07-14 15:22:34,706 - findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,706 - findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,706 - findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2019-07-14 15:22:34,707 - findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,707 - findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,707 - findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+2019-07-14 15:22:34,707 - findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,707 - findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,707 - findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,708 - findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal regular normal>) = 10.05
+2019-07-14 15:22:34,708 - findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal bold normal>) = 1.335
+2019-07-14 15:22:34,708 - findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal regular normal>) = 10.05
+2019-07-14 15:22:34,708 - findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,708 - findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,708 - findfont: score(<Font 'FangSong' (simfang.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,708 - findfont: score(<Font 'Adobe Caslon Pro' (ACaslonPro-BoldItalic.otf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,708 - findfont: score(<Font 'MS Gothic' (msgothic.ttc) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,709 - findfont: score(<Font 'Microsoft Tai Le' (taileb.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,709 - findfont: score(<Font 'FZYaoTi' (FZYTK.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,710 - findfont: score(<Font 'Roboto' (Roboto-Regular.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,710 - findfont: score(<Font 'Calibri' (calibrii.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,711 - findfont: score(<Font 'Symbol' (symbol.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,711 - findfont: score(<Font 'Adobe Caslon Pro' (ACaslonPro-SemiboldItalic.otf) italic normal semibold normal>) = 11.24
+2019-07-14 15:22:34,711 - findfont: score(<Font 'Lucida Fax' (LFAX.TTF) normal normal regular normal>) = 10.05
+2019-07-14 15:22:34,712 - findfont: score(<Font 'Playbill' (PLAYBILL.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,712 - findfont: score(<Font 'Jokerman' (JOKERMAN.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,712 - findfont: score(<Font 'Arial' (arialbd.ttf) normal normal bold normal>) = 6.698636363636363
+2019-07-14 15:22:34,712 - findfont: score(<Font 'Matura MT Script Capitals' (MATURASC.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,712 - findfont: score(<Font 'Kozuka Gothic Pr6N' (KozGoPr6N-Heavy.otf) normal normal 700 normal>) = 10.335
+2019-07-14 15:22:34,713 - findfont: score(<Font 'Segoe UI' (segoeuiz.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,713 - findfont: score(<Font 'Kozuka Mincho Pro' (KozMinPro-Heavy.otf) normal normal 700 normal>) = 10.335
+2019-07-14 15:22:34,713 - findfont: score(<Font 'Consolas' (consolai.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,713 - findfont: score(<Font 'Cambria' (cambriai.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,713 - findfont: score(<Font 'Microsoft Sans Serif' (micross.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,713 - findfont: score(<Font 'Palatino Linotype' (palai.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,713 - findfont: score(<Font 'STZhongsong' (STZHONGS.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,714 - findfont: score(<Font 'Trebuchet MS' (trebuc.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,714 - findfont: score(<Font 'Comic Sans MS' (comic.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,714 - findfont: score(<Font 'Stencil' (STENCIL.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,715 - findfont: score(<Font 'Chaparral Pro' (ChaparralPro-LightIt.otf) italic normal light normal>) = 11.24
+2019-07-14 15:22:34,715 - findfont: score(<Font 'Kozuka Mincho Pro' (KozMinPro-Medium.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,715 - findfont: score(<Font 'Palatino Linotype' (pala.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,716 - findfont: score(<Font 'Calibri' (calibril.ttf) normal normal light normal>) = 10.24
+2019-07-14 15:22:34,716 - findfont: score(<Font 'Segoe UI' (seguili.ttf) italic normal light normal>) = 11.24
+2019-07-14 15:22:34,716 - findfont: score(<Font 'Segoe Print' (segoeprb.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,717 - findfont: score(<Font 'Consolas' (consolaz.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,717 - findfont: score(<Font 'Blackoak Std' (BlackoakStd.otf) normal normal black normal>) = 10.525
+2019-07-14 15:22:34,717 - findfont: score(<Font 'FZLanTingHeiS-UL-GB' (FZLTCXHJW.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,717 - findfont: score(<Font 'Segoe UI' (segoeui.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,717 - findfont: score(<Font 'Kozuka Mincho Pro' (KozMinPro-ExtraLight.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,718 - findfont: score(<Font 'Lucida Bright' (LucidaBrightDemiItalic.ttf) italic normal demibold normal>) = 11.24
+2019-07-14 15:22:34,718 - findfont: score(<Font 'Microsoft Yi Baiti' (msyi.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,718 - findfont: score(<Font 'Myriad Arabic' (MyriadArabic-It.otf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,718 - findfont: score(<Font 'Gadugi' (gadugib.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,718 - findfont: score(<Font 'Trebuchet MS' (trebucbi.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,718 - findfont: score(<Font 'Vladimir Script' (VLADIMIR.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,718 - findfont: score(<Font 'Arial' (ARIALNI.TTF) italic normal 400 condensed>) = 7.613636363636363
+2019-07-14 15:22:34,719 - findfont: score(<Font 'Kozuka Gothic Pro' (KozGoPro-Light.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,719 - findfont: score(<Font 'Segoe Script' (segoesc.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,719 - findfont: score(<Font 'Book Antiqua' (ANTQUABI.TTF) italic normal book normal>) = 11.05
+2019-07-14 15:22:34,719 - findfont: score(<Font 'Courier New' (courbi.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,719 - findfont: score(<Font 'Broadway' (BROADW.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,719 - findfont: score(<Font 'Britannic Bold' (BRITANIC.TTF) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,719 - findfont: score(<Font 'Mistral' (MISTRAL.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,719 - findfont: score(<Font 'Lithos Pro' (LithosPro-Black.otf) normal normal black normal>) = 10.525
+2019-07-14 15:22:34,720 - findfont: score(<Font 'Myriad Pro' (MyriadPro-Bold.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,720 - findfont: score(<Font 'Bookshelf Symbol 7' (BSSYM7.TTF) normal normal book normal>) = 10.05
+2019-07-14 15:22:34,720 - findfont: score(<Font 'STSong' (STSONG.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,720 - findfont: score(<Font 'Lucida Fax' (LFAXI.TTF) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,720 - findfont: score(<Font 'Centaur' (CENTAUR.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,720 - findfont: score(<Font 'Franklin Gothic Medium' (framd.ttf) normal normal medium normal>) = 10.145
+2019-07-14 15:22:34,720 - findfont: score(<Font 'Microsoft PhagsPa' (phagspa.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,720 - findfont: score(<Font 'Myriad Hebrew' (MyriadHebrew-Bold.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,721 - findfont: score(<Font 'Georgia' (georgiaz.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,721 - findfont: score(<Font 'STLiti' (STLITI.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,721 - findfont: score(<Font 'Segoe UI' (seguibli.ttf) italic normal black normal>) = 11.525
+2019-07-14 15:22:34,721 - findfont: score(<Font 'Roboto' (Roboto-BoldItalic.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,721 - findfont: score(<Font 'Myriad Pro' (MyriadPro-CondIt.otf) italic normal 400 condensed>) = 11.25
+2019-07-14 15:22:34,721 - findfont: score(<Font 'Chiller' (CHILLER.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,721 - findfont: score(<Font 'Myriad Pro' (MyriadPro-BoldCondIt.otf) italic normal bold condensed>) = 11.535
+2019-07-14 15:22:34,722 - findfont: score(<Font 'Kozuka Gothic Pro' (KozGoPro-Medium.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,722 - findfont: score(<Font 'Myriad Pro' (MyriadPro-BoldCond.otf) normal normal bold condensed>) = 10.535
+2019-07-14 15:22:34,722 - findfont: score(<Font 'Magneto' (MAGNETOB.TTF) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,722 - findfont: score(<Font 'Letter Gothic Std' (LetterGothicStd-Slanted.otf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,722 - findfont: score(<Font 'Californian FB' (CALIFB.TTF) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,722 - findfont: score(<Font 'Courier New' (cour.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,723 - findfont: score(<Font 'Wingdings 2' (WINGDNG2.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,723 - findfont: score(<Font 'Times New Roman' (timesbd.ttf) normal normal roman normal>) = 10.145
+2019-07-14 15:22:34,723 - findfont: score(<Font 'Nueva Std' (NuevaStd-BoldCondItalic.otf) italic normal bold condensed>) = 11.535
+2019-07-14 15:22:34,723 - findfont: score(<Font 'Microsoft New Tai Lue' (ntailub.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,724 - findfont: score(<Font 'Adobe Caslon Pro' (ACaslonPro-Semibold.otf) normal normal semibold normal>) = 10.24
+2019-07-14 15:22:34,724 - findfont: score(<Font 'Cambria' (cambriab.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,724 - findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique_0.ttf) oblique normal 400 normal>) = 11.05
+2019-07-14 15:22:34,724 - findfont: score(<Font 'STXihei' (STXIHEI.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,724 - findfont: score(<Font 'KaiTi' (simkai.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,724 - findfont: score(<Font 'Berlin Sans FB' (BRLNSB.TTF) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,725 - findfont: score(<Font 'Tekton Pro' (TektonPro-BoldObl.otf) oblique normal bold normal>) = 11.335
+2019-07-14 15:22:34,725 - findfont: score(<Font 'Stencil Std' (StencilStd.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,725 - findfont: score(<Font 'Segoe UI Historic' (seguihis.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,725 - findfont: score(<Font 'Kozuka Mincho Pro' (KozMinPro-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,725 - findfont: score(<Font 'Verdana' (verdanai.ttf) italic normal 400 normal>) = 4.6863636363636365
+2019-07-14 15:22:34,725 - findfont: score(<Font 'Kozuka Gothic Pro' (KozGoPro-ExtraLight.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,725 - findfont: score(<Font 'Microsoft PhagsPa' (phagspab.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,726 - findfont: score(<Font 'DengXian' (Dengl.ttf) normal normal light normal>) = 10.24
+2019-07-14 15:22:34,726 - findfont: score(<Font 'Kozuka Mincho Pr6N' (KozMinPr6N-Heavy.otf) normal normal 700 normal>) = 10.335
+2019-07-14 15:22:34,726 - findfont: score(<Font 'Book Antiqua' (ANTQUAI.TTF) italic normal book normal>) = 11.05
+2019-07-14 15:22:34,726 - findfont: score(<Font 'Orator Std' (OratorStd.otf) normal normal medium normal>) = 10.145
+2019-07-14 15:22:34,727 - findfont: score(<Font 'Leelawadee UI' (LeelUIsl.ttf) normal normal light normal>) = 10.24
+2019-07-14 15:22:34,727 - findfont: score(<Font 'Bell MT' (BELLB.TTF) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,728 - findfont: score(<Font 'Book Antiqua' (ANTQUAB.TTF) normal normal book normal>) = 10.05
+2019-07-14 15:22:34,728 - findfont: score(<Font 'Arial' (ARIALNB.TTF) normal normal bold condensed>) = 6.8986363636363635
+2019-07-14 15:22:34,728 - findfont: score(<Font 'Kozuka Gothic Pr6N' (KozGoPr6N-Medium.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,729 - findfont: score(<Font 'Kozuka Gothic Pro' (KozGoPro-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,729 - findfont: score(<Font 'Nueva Std' (NuevaStd-Bold.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,729 - findfont: score(<Font 'Garamond' (GARA.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,729 - findfont: score(<Font 'Candara' (Candara.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,729 - findfont: score(<Font 'Microsoft Himalaya' (himalaya.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,729 - findfont: score(<Font 'Bernard MT Condensed' (BERNHC.TTF) normal normal 400 condensed>) = 10.25
+2019-07-14 15:22:34,729 - findfont: score(<Font 'Lobster' (Lobster-Regular.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,730 - findfont: score(<Font 'Corbel' (corbelb.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,730 - findfont: score(<Font 'Segoe UI' (segoeuib.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,730 - findfont: score(<Font 'Wide Latin' (LATINWD.TTF) normal normal 400 expanded>) = 10.25
+2019-07-14 15:22:34,730 - findfont: score(<Font 'Tahoma' (tahomabd.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,730 - findfont: score(<Font 'Microsoft YaHei' (msyhl.ttc) normal normal light normal>) = 10.24
+2019-07-14 15:22:34,730 - findfont: score(<Font 'Niagara Solid' (NIAGSOL.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,731 - findfont: score(<Font 'Nirmala UI' (NirmalaS.ttf) normal normal light normal>) = 10.24
+2019-07-14 15:22:34,731 - findfont: score(<Font 'Segoe UI' (seguisbi.ttf) italic normal semibold normal>) = 11.24
+2019-07-14 15:22:34,731 - findfont: score(<Font 'Lucida Fax' (LFAXD.TTF) normal normal demibold normal>) = 10.24
+2019-07-14 15:22:34,731 - findfont: score(<Font 'Adobe Arabic' (AdobeArabic-Bold.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,731 - findfont: score(<Font 'Myriad Hebrew' (MyriadHebrew-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,731 - findfont: score(<Font 'Lucida Fax' (LFAXDI.TTF) italic normal demibold normal>) = 11.24
+2019-07-14 15:22:34,731 - findfont: score(<Font 'Corbel' (corbelz.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,731 - findfont: score(<Font 'Trebuchet MS' (trebucbd.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,732 - findfont: score(<Font 'Times New Roman' (times.ttf) normal normal roman normal>) = 10.145
+2019-07-14 15:22:34,732 - findfont: score(<Font 'Segoe UI' (seguibl.ttf) normal normal black normal>) = 10.525
+2019-07-14 15:22:34,732 - findfont: score(<Font 'Calibri' (calibrib.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,732 - findfont: score(<Font 'Constantia' (constan.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,732 - findfont: score(<Font 'Berlin Sans FB Demi' (BRLNSDB.TTF) normal normal demi normal>) = 10.24
+2019-07-14 15:22:34,732 - findfont: score(<Font 'Segoe UI' (seguisli.ttf) italic normal light normal>) = 11.24
+2019-07-14 15:22:34,732 - findfont: score(<Font 'Myriad Pro' (MyriadPro-SemiboldIt.otf) italic normal semibold normal>) = 11.24
+2019-07-14 15:22:34,733 - findfont: score(<Font 'Franklin Gothic Medium' (framdit.ttf) italic normal medium normal>) = 11.145
+2019-07-14 15:22:34,733 - findfont: score(<Font 'Kozuka Gothic Pr6N' (KozGoPr6N-Bold.otf) normal normal 700 normal>) = 10.335
+2019-07-14 15:22:34,733 - findfont: score(<Font 'Tekton Pro' (TektonPro-BoldCond.otf) normal normal bold condensed>) = 10.535
+2019-07-14 15:22:34,733 - findfont: score(<Font 'Ravie' (RAVIE.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,733 - findfont: score(<Font 'SimSun' (simsun.ttc) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,733 - findfont: score(<Font 'Roboto Slab' (RobotoSlab-Regular.ttf) normal normal regular normal>) = 10.05
+2019-07-14 15:22:34,733 - findfont: score(<Font 'Malgun Gothic' (malgun.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,733 - findfont: score(<Font 'Lucida Bright' (LBRITEDI.TTF) italic normal demibold normal>) = 11.24
+2019-07-14 15:22:34,734 - findfont: score(<Font 'Gabriola' (Gabriola.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,734 - findfont: score(<Font 'Adobe Devanagari' (AdobeDevanagari-BoldItalic.otf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,734 - findfont: score(<Font 'HoloLens MDL2 Assets' (holomdl2.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,734 - findfont: score(<Font 'Informal Roman' (INFROMAN.TTF) normal normal roman normal>) = 10.145
+2019-07-14 15:22:34,734 - findfont: score(<Font 'Arial' (ariblk.ttf) normal normal black normal>) = 6.888636363636364
+2019-07-14 15:22:34,734 - findfont: score(<Font 'Myriad Arabic' (MyriadArabic-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,734 - findfont: score(<Font 'Bauhaus 93' (BAUHS93.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,735 - findfont: score(<Font 'Adobe Garamond Pro' (AGaramondPro-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,735 - findfont: score(<Font 'DengXian' (Deng.ttf) normal normal regular normal>) = 10.05
+2019-07-14 15:22:34,735 - findfont: score(<Font 'Gadugi' (gadugi.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,735 - findfont: score(<Font 'Myriad Arabic' (MyriadArabic-BoldIt.otf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,735 - findfont: score(<Font 'Harlow Solid Italic' (HARLOWSI.TTF) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,735 - findfont: score(<Font 'Open Sans' (OpenSans-Italic.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,735 - findfont: score(<Font 'Footlight MT Light' (FTLTLT.TTF) normal normal light normal>) = 10.24
+2019-07-14 15:22:34,735 - findfont: score(<Font 'Myriad Pro' (MyriadPro-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,736 - findfont: score(<Font 'Myanmar Text' (mmrtextb.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,736 - findfont: score(<Font 'Courier New' (courbd.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,736 - findfont: score(<Font 'Bookman Old Style' (BOOKOSBI.TTF) italic normal book normal>) = 11.05
+2019-07-14 15:22:34,736 - findfont: score(<Font 'Kozuka Mincho Pr6N' (KozMinPr6N-ExtraLight.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,736 - findfont: score(<Font 'Consolas' (consola.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,736 - findfont: score(<Font 'Trebuchet MS' (trebucit.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,736 - findfont: score(<Font 'Orator Std' (OratorStd-Slanted.otf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,736 - findfont: score(<Font 'Kozuka Mincho Pro' (KozMinPro-Bold.otf) normal normal 700 normal>) = 10.335
+2019-07-14 15:22:34,737 - findfont: score(<Font 'Giddyup Std' (GiddyupStd.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,737 - findfont: score(<Font 'Arial' (ariali.ttf) italic normal 400 normal>) = 7.413636363636363
+2019-07-14 15:22:34,737 - findfont: score(<Font 'Adobe Garamond Pro' (AGaramondPro-Bold.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,737 - findfont: score(<Font 'Parchment' (PARCHM.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,737 - findfont: score(<Font 'Adobe Hebrew' (AdobeHebrew-Bold.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,737 - findfont: score(<Font 'STFangsong' (STFANGSO.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,737 - findfont: score(<Font 'Kozuka Gothic Pr6N' (KozGoPr6N-ExtraLight.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,737 - findfont: score(<Font 'Kozuka Gothic Pr6N' (KozGoPr6N-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,738 - findfont: score(<Font 'Lucida Console' (lucon.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,738 - findfont: score(<Font 'Modern No. 20' (MOD20.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,738 - findfont: score(<Font 'Corbel' (corbeli.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,738 - findfont: score(<Font 'Adobe Arabic' (AdobeArabic-Regular.otf) normal normal regular normal>) = 10.05
+2019-07-14 15:22:34,738 - findfont: score(<Font 'OCR A Std' (OCRAStd.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,738 - findfont: score(<Font 'Bell MT' (BELLI.TTF) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,738 - findfont: score(<Font 'Lucida Calligraphy' (LCALLIG.TTF) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,738 - findfont: score(<Font 'Chaparral Pro' (ChaparralPro-Bold.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,739 - findfont: score(<Font 'Cambria' (cambria.ttc) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,739 - findfont: score(<Font 'Raleway' (Raleway-Regular.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,739 - findfont: score(<Font 'Verdana' (verdanab.ttf) normal normal bold normal>) = 3.9713636363636367
+2019-07-14 15:22:34,739 - findfont: score(<Font 'Chaparral Pro' (ChaparralPro-BoldIt.otf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,740 - findfont: score(<Font 'STXingkai' (STXINGKA.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,740 - findfont: score(<Font 'Minion Pro' (MinionPro-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,740 - findfont: score(<Font 'Comic Sans MS' (comicbd.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,740 - findfont: score(<Font 'Letter Gothic Std' (LetterGothicStd-Bold.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,740 - findfont: score(<Font 'Microsoft YaHei' (msyhbd.ttc) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,740 - findfont: score(<Font 'Impact' (impact.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,740 - findfont: score(<Font 'Adobe Arabic' (AdobeArabic-Italic.otf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,741 - findfont: score(<Font 'Roboto' (Roboto-Italic.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,741 - findfont: score(<Font 'Adobe Song Std' (AdobeSongStd-Light.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,741 - findfont: score(<Font 'Arial' (arial.ttf) normal normal 400 normal>) = 6.413636363636363
+2019-07-14 15:22:34,741 - findfont: score(<Font 'Kozuka Gothic Pro' (KozGoPro-Heavy.otf) normal normal 700 normal>) = 10.335
+2019-07-14 15:22:34,741 - findfont: score(<Font 'Adobe Ming Std' (AdobeMingStd-Light.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,741 - findfont: score(<Font 'DengXian' (Dengb.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,741 - findfont: score(<Font 'Kunstler Script' (KUNSTLER.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,742 - findfont: score(<Font 'Berlin Sans FB' (BRLNSR.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,742 - findfont: score(<Font 'Century Gothic' (GOTHIC.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,742 - findfont: score(<Font 'Book Antiqua' (BKANT.TTF) normal normal book normal>) = 10.05
+2019-07-14 15:22:34,742 - findfont: score(<Font 'Adobe Gothic Std' (AdobeGothicStd-Bold.otf) normal normal 700 normal>) = 10.335
+2019-07-14 15:22:34,742 - findfont: score(<Font 'Lucida Sans' (LucidaSansRegular.ttf) normal normal regular normal>) = 10.05
+2019-07-14 15:22:34,743 - findfont: score(<Font 'Adobe Garamond Pro' (AGaramondPro-Italic.otf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,743 - findfont: score(<Font 'Nueva Std' (NuevaStd-BoldCond.otf) normal normal bold condensed>) = 10.535
+2019-07-14 15:22:34,744 - findfont: score(<Font 'Droid Serif' (DroidSerif-BoldItalic.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,744 - findfont: score(<Font 'Segoe UI Symbol' (seguisym.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,745 - findfont: score(<Font 'Rosewood Std' (RosewoodStd-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,745 - findfont: score(<Font 'Trajan Pro' (TrajanPro-Bold.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,745 - findfont: score(<Font 'Corbel' (corbel.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,746 - findfont: score(<Font 'Cooper Black' (COOPBL.TTF) normal normal black normal>) = 10.525
+2019-07-14 15:22:34,746 - findfont: score(<Font 'Trajan Pro' (TrajanPro-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,746 - findfont: score(<Font 'Arial' (arialbi.ttf) italic normal bold normal>) = 7.698636363636363
+2019-07-14 15:22:34,746 - findfont: score(<Font 'Californian FB' (CALIFR.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,746 - findfont: score(<Font 'Hobo Std' (HoboStd.otf) normal normal medium normal>) = 10.145
+2019-07-14 15:22:34,747 - findfont: score(<Font 'Consolas' (consolab.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,747 - findfont: score(<Font 'Calibri' (calibriz.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,747 - findfont: score(<Font 'Minion Pro' (MinionPro-Semibold.otf) normal normal semibold normal>) = 10.24
+2019-07-14 15:22:34,747 - findfont: score(<Font 'Bookman Old Style' (BOOKOSB.TTF) normal normal book normal>) = 10.05
+2019-07-14 15:22:34,747 - findfont: score(<Font 'Letter Gothic Std' (LetterGothicStd-BoldSlanted.otf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,747 - findfont: score(<Font 'Ink Free' (Inkfree.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,747 - findfont: score(<Font 'Poor Richard' (POORICH.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,747 - findfont: score(<Font 'Georgia' (georgiai.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,748 - findfont: score(<Font 'Leelawadee UI' (LeelawUI.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,748 - findfont: score(<Font 'Tekton Pro' (TektonPro-BoldExt.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,748 - findfont: score(<Font 'Constantia' (constani.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,748 - findfont: score(<Font 'Kozuka Gothic Pr6N' (KozGoPr6N-Light.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,748 - findfont: score(<Font 'Minion Pro' (MinionPro-Bold.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,748 - findfont: score(<Font 'Adobe Devanagari' (AdobeDevanagari-Bold.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,748 - findfont: score(<Font 'Viner Hand ITC' (VINERITC.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,749 - findfont: score(<Font 'Comic Sans MS' (comicz.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,749 - findfont: score(<Font 'MS Reference Specialty' (REFSPCL.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,749 - findfont: score(<Font 'Arvo' (Arvo-Bold.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,749 - findfont: score(<Font 'Arvo' (Arvo-BoldItalic.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,749 - findfont: score(<Font 'Palatino Linotype' (palabi.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,749 - findfont: score(<Font 'SimHei' (simhei.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,749 - findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold_0.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,749 - findfont: score(<Font 'Lucida Bright' (LucidaBrightDemiBold.ttf) normal normal demibold normal>) = 10.24
+2019-07-14 15:22:34,750 - findfont: score(<Font 'Freestyle Script' (FREESCPT.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,750 - findfont: score(<Font 'MingLiU-ExtB' (mingliub.ttc) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,750 - findfont: score(<Font 'Adobe Fan Heiti Std' (AdobeFanHeitiStd-Bold.otf) normal normal 700 normal>) = 10.335
+2019-07-14 15:22:34,750 - findfont: score(<Font 'Sitka Small' (SitkaB.ttc) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,750 - findfont: score(<Font 'Verdana' (verdana.ttf) normal normal 400 normal>) = 3.6863636363636365
+2019-07-14 15:22:34,750 - findfont: score(<Font 'Malgun Gothic' (malgunsl.ttf) normal normal light normal>) = 10.24
+2019-07-14 15:22:34,750 - findfont: score(<Font 'Constantia' (constanb.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,750 - findfont: score(<Font 'Adobe Arabic' (AdobeArabic-BoldItalic.otf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,751 - findfont: score(<Font 'SimSun-ExtB' (simsunb.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,751 - findfont: score(<Font 'Yu Gothic' (YuGothB.ttc) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,751 - findfont: score(<Font 'Adobe Garamond Pro' (AGaramondPro-BoldItalic.otf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,751 - findfont: score(<Font 'Tempus Sans ITC' (TEMPSITC.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,751 - findfont: score(<Font 'Bookman Old Style' (BOOKOSI.TTF) italic normal book normal>) = 11.05
+2019-07-14 15:22:34,751 - findfont: score(<Font 'Kozuka Mincho Pr6N' (KozMinPr6N-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,751 - findfont: score(<Font 'Microsoft New Tai Lue' (ntailu.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,751 - findfont: score(<Font 'Adobe Fangsong Std' (AdobeFangsongStd-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,752 - findfont: score(<Font 'Lucida Bright' (LBRITED.TTF) normal normal demibold normal>) = 10.24
+2019-07-14 15:22:34,752 - findfont: score(<Font 'Kozuka Mincho Pr6N' (KozMinPr6N-Light.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,752 - findfont: score(<Font 'Calibri' (calibri.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,752 - findfont: score(<Font 'Kozuka Mincho Pr6N' (KozMinPr6N-Medium.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,752 - findfont: score(<Font 'Microsoft JhengHei' (msjh.ttc) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,752 - findfont: score(<Font 'Colonna MT' (COLONNA.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,752 - findfont: score(<Font 'Yu Gothic' (YuGothM.ttc) normal normal medium normal>) = 10.145
+2019-07-14 15:22:34,753 - findfont: score(<Font 'Birch Std' (BirchStd.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,753 - findfont: score(<Font 'Malgun Gothic' (malgunbd.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,753 - findfont: score(<Font 'Lithos Pro' (LithosPro-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,753 - findfont: score(<Font 'Kozuka Gothic Pro' (KozGoPro-Bold.otf) normal normal 700 normal>) = 10.335
+2019-07-14 15:22:34,753 - findfont: score(<Font 'Vivaldi' (VIVALDII.TTF) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,753 - findfont: score(<Font 'Myriad Pro' (MyriadPro-It.otf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,753 - findfont: score(<Font 'Comic Sans MS' (comici.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,753 - findfont: score(<Font 'Segoe UI' (segoeuisl.ttf) normal normal light normal>) = 10.24
+2019-07-14 15:22:34,754 - findfont: score(<Font 'Arvo' (Arvo-Italic.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,754 - findfont: score(<Font 'Niagara Engraved' (NIAGENG.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,754 - findfont: score(<Font 'Bodoni MT' (BOD_PSTC.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,754 - findfont: score(<Font 'Juice ITC' (JUICE___.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,754 - findfont: score(<Font 'Adobe Myungjo Std' (AdobeMyungjoStd-Medium.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,754 - findfont: score(<Font 'Adobe Kaiti Std' (AdobeKaitiStd-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,754 - findfont: score(<Font 'Javanese Text' (javatext.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,754 - findfont: score(<Font 'Prestige Elite Std' (PrestigeEliteStd-Bd.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,755 - findfont: score(<Font 'Wingdings' (wingding.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,755 - findfont: score(<Font 'Roboto' (Roboto-Bold.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,755 - findfont: score(<Font 'MV Boli' (mvboli.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,755 - findfont: score(<Font 'Arvo' (Arvo-Regular.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,755 - findfont: score(<Font 'Century Gothic' (GOTHICB.TTF) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,755 - findfont: score(<Font 'Webdings' (webdings.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,755 - findfont: score(<Font 'Poplar Std' (PoplarStd.otf) normal normal black normal>) = 10.525
+2019-07-14 15:22:34,755 - findfont: score(<Font 'Cooper Std' (CooperBlackStd-Italic.otf) italic normal black normal>) = 11.525
+2019-07-14 15:22:34,756 - findfont: score(<Font 'Myriad Pro' (MyriadPro-Cond.otf) normal normal 400 condensed>) = 10.25
+2019-07-14 15:22:34,756 - findfont: score(<Font 'Myanmar Text' (mmrtext.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,756 - findfont: score(<Font 'Onyx' (ONYX.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,756 - findfont: score(<Font 'Palatino Linotype' (palab.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,756 - findfont: score(<Font 'Minion Pro' (MinionPro-BoldCnIt.otf) italic normal bold condensed>) = 11.535
+2019-07-14 15:22:34,756 - findfont: score(<Font 'FZShuTi' (FZSTK.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,756 - findfont: score(<Font 'Lucida Sans Typewriter' (LucidaTypewriterRegular.ttf) normal normal regular normal>) = 10.05
+2019-07-14 15:22:34,756 - findfont: score(<Font 'Brush Script MT' (BRUSHSCI.TTF) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,757 - findfont: score(<Font 'LiSu' (SIMLI.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,757 - findfont: score(<Font 'STHupo' (STHUPO.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,757 - findfont: score(<Font 'Georgia' (georgia.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,757 - findfont: score(<Font 'Microsoft YaHei' (msyh.ttc) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,757 - findfont: score(<Font 'Baskerville Old Face' (BASKVILL.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,757 - findfont: score(<Font 'Adobe Devanagari' (AdobeDevanagari-Italic.otf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,757 - findfont: score(<Font 'Raleway' (Raleway-Bold.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,757 - findfont: score(<Font 'Tahoma' (tahoma.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,758 - findfont: score(<Font 'Minion Pro' (MinionPro-Medium.otf) normal normal medium normal>) = 10.145
+2019-07-14 15:22:34,758 - findfont: score(<Font 'Segoe UI' (segoeuil.ttf) normal normal light normal>) = 10.24
+2019-07-14 15:22:34,758 - findfont: score(<Font 'YouYuan' (SIMYOU.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,758 - findfont: score(<Font 'Lucida Sans Unicode' (l_10646.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,758 - findfont: score(<Font 'Minion Pro' (MinionPro-SemiboldIt.otf) italic normal semibold normal>) = 11.24
+2019-07-14 15:22:34,758 - findfont: score(<Font 'Myriad Pro' (MyriadPro-Semibold.otf) normal normal semibold normal>) = 10.24
+2019-07-14 15:22:34,758 - findfont: score(<Font 'Cooper Std' (CooperBlackStd.otf) normal normal black normal>) = 10.525
+2019-07-14 15:22:34,759 - findfont: score(<Font 'Garamond' (GARAIT.TTF) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,759 - findfont: score(<Font 'Letter Gothic Std' (LetterGothicStd.otf) normal normal medium normal>) = 10.145
+2019-07-14 15:22:34,759 - findfont: score(<Font 'Segoe MDL2 Assets' (segmdl2.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,759 - findfont: score(<Font 'Roboto Condensed' (RobotoCondensed-Regular.ttf) normal normal 400 condensed>) = 10.25
+2019-07-14 15:22:34,760 - findfont: score(<Font 'Minion Pro' (MinionPro-It.otf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,760 - findfont: score(<Font 'High Tower Text' (HTOWERT.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,761 - findfont: score(<Font 'Wingdings 3' (WINGDNG3.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,762 - findfont: score(<Font 'Segoe UI' (seguisb.ttf) normal normal semibold normal>) = 10.24
+2019-07-14 15:22:34,763 - findfont: score(<Font 'Bookman Old Style' (BOOKOS.TTF) normal normal book normal>) = 10.05
+2019-07-14 15:22:34,763 - findfont: score(<Font 'STCaiyun' (STCAIYUN.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,763 - findfont: score(<Font 'Sylfaen' (sylfaen.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,763 - findfont: score(<Font 'Segoe UI' (segoeuii.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,763 - findfont: score(<Font 'Ebrima' (ebrimabd.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,764 - findfont: score(<Font 'Chaparral Pro' (ChaparralPro-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,764 - findfont: score(<Font 'Cambria' (cambriaz.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,764 - findfont: score(<Font 'Segoe Script' (segoescb.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,764 - findfont: score(<Font 'Old English Text MT' (OLDENGL.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,764 - findfont: score(<Font 'Times New Roman' (timesbi.ttf) italic normal roman normal>) = 11.145
+2019-07-14 15:22:34,764 - findfont: score(<Font 'STXinwei' (STXINWEI.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,764 - findfont: score(<Font 'Century Gothic' (GOTHICI.TTF) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,765 - findfont: score(<Font 'Arial' (ARIALNBI.TTF) italic normal bold condensed>) = 7.8986363636363635
+2019-07-14 15:22:34,765 - findfont: score(<Font 'Adobe Caslon Pro' (ACaslonPro-Bold.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,765 - findfont: score(<Font 'Candara' (Candaraz.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,765 - findfont: score(<Font 'Adobe Hebrew' (AdobeHebrew-Italic.otf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,765 - findfont: score(<Font 'Myriad Pro' (MyriadPro-BoldIt.otf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,765 - findfont: score(<Font 'Adobe Caslon Pro' (ACaslonPro-Italic.otf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,765 - findfont: score(<Font 'High Tower Text' (HTOWERTI.TTF) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,765 - findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique_0.ttf) oblique normal bold normal>) = 11.335
+2019-07-14 15:22:34,766 - findfont: score(<Font 'Droid Serif' (DroidSerif.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,766 - findfont: score(<Font 'Myriad Hebrew' (MyriadHebrew-BoldIt.otf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,766 - findfont: score(<Font 'Charlemagne Std' (CharlemagneStd-Bold.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,766 - findfont: score(<Font 'Arial Unicode MS' (ARIALUNI.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,766 - findfont: score(<Font 'Nueva Std' (NuevaStd-Cond.otf) normal normal 400 condensed>) = 10.25
+2019-07-14 15:22:34,766 - findfont: score(<Font 'Ebrima' (ebrima.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,766 - findfont: score(<Font 'Bahnschrift' (bahnschrift.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,767 - findfont: score(<Font 'Poiret One' (PoiretOne-Regular.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,767 - findfont: score(<Font 'Segoe Print' (segoepr.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,767 - findfont: score(<Font 'Lucida Bright' (LBRITEI.TTF) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,767 - findfont: score(<Font 'Showcard Gothic' (SHOWG.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,767 - findfont: score(<Font 'Roboto Condensed' (RobotoCondensed-Italic.ttf) italic normal 400 condensed>) = 11.25
+2019-07-14 15:22:34,767 - findfont: score(<Font 'Leelawadee UI' (LeelaUIb.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,767 - findfont: score(<Font 'Microsoft Tai Le' (taile.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,767 - findfont: score(<Font 'Century' (CENTURY.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,768 - findfont: score(<Font 'Courier New' (couri.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,768 - findfont: score(<Font 'Tekton Pro' (TektonPro-Bold.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,768 - findfont: score(<Font 'Kozuka Mincho Pro' (KozMinPro-Light.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,768 - findfont: score(<Font 'Open Sans' (OpenSans-Regular.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,768 - findfont: score(<Font 'Californian FB' (CALIFI.TTF) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,768 - findfont: score(<Font 'Lucida Sans Typewriter' (LucidaTypewriterBold.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,768 - findfont: score(<Font 'Georgia' (georgiab.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,768 - findfont: score(<Font 'Bell MT' (BELL.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,769 - findfont: score(<Font 'Roboto Condensed' (RobotoCondensed-Bold.ttf) normal normal bold condensed>) = 10.535
+2019-07-14 15:22:34,769 - findfont: score(<Font 'Segoe UI Emoji' (seguiemj.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,769 - findfont: score(<Font 'MS Reference Sans Serif' (REFSAN.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,769 - findfont: score(<Font 'Adobe Hebrew' (AdobeHebrew-BoldItalic.otf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,769 - findfont: score(<Font 'Lucida Handwriting' (LHANDW.TTF) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,769 - findfont: score(<Font 'Nirmala UI' (Nirmala.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,769 - findfont: score(<Font 'Adobe Hebrew' (AdobeHebrew-Regular.otf) normal normal regular normal>) = 10.05
+2019-07-14 15:22:34,770 - findfont: score(<Font 'Garamond' (GARABD.TTF) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,770 - findfont: score(<Font 'Myriad Arabic' (MyriadArabic-Bold.otf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,770 - findfont: score(<Font 'Minion Pro' (MinionPro-BoldCn.otf) normal normal bold condensed>) = 10.535
+2019-07-14 15:22:34,770 - findfont: score(<Font 'Snap ITC' (SNAP____.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,770 - findfont: score(<Font 'Nueva Std' (NuevaStd-Italic.otf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,770 - findfont: score(<Font 'Indie Flower' (IndieFlower.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,770 - findfont: score(<Font 'Candara' (Candarab.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,770 - findfont: score(<Font 'Sitka Small' (SitkaZ.ttc) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,771 - findfont: score(<Font 'Candara' (Candarai.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,771 - findfont: score(<Font 'Algerian' (ALGER.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,771 - findfont: score(<Font 'Nirmala UI' (NirmalaB.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,771 - findfont: score(<Font 'Sitka Small' (SitkaI.ttc) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,771 - findfont: score(<Font 'Minion Pro' (MinionPro-MediumIt.otf) italic normal medium normal>) = 11.145
+2019-07-14 15:22:34,771 - findfont: score(<Font 'Yu Gothic' (YuGothR.ttc) normal normal regular normal>) = 10.05
+2019-07-14 15:22:34,771 - findfont: score(<Font 'Kozuka Mincho Pr6N' (KozMinPr6N-Bold.otf) normal normal 700 normal>) = 10.335
+2019-07-14 15:22:34,772 - findfont: score(<Font 'Lucida Sans' (LucidaSansDemiBold.ttf) normal normal demibold normal>) = 10.24
+2019-07-14 15:22:34,772 - findfont: score(<Font 'Open Sans' (OpenSans-Bold.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,772 - findfont: score(<Font 'Open Sans' (OpenSans-BoldItalic.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,772 - findfont: score(<Font 'Myriad Hebrew' (MyriadHebrew-It.otf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,772 - findfont: score(<Font 'Mesquite Std' (MesquiteStd.otf) normal normal medium normal>) = 10.145
+2019-07-14 15:22:34,773 - findfont: score(<Font 'Adobe Heiti Std' (AdobeHeitiStd-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,773 - findfont: score(<Font 'Monotype Corsiva' (MTCORSVA.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,773 - findfont: score(<Font 'Century Gothic' (GOTHICBI.TTF) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,773 - findfont: score(<Font 'Nueva Std' (NuevaStd-CondItalic.otf) italic normal 400 condensed>) = 11.25
+2019-07-14 15:22:34,773 - findfont: score(<Font 'Roboto Slab' (RobotoSlab-Bold.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,773 - findfont: score(<Font 'Arial' (ARIALN.TTF) normal normal 400 condensed>) = 6.613636363636363
+2019-07-14 15:22:34,773 - findfont: score(<Font 'Adobe Caslon Pro' (ACaslonPro-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,774 - findfont: score(<Font 'Mongolian Baiti' (monbaiti.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,774 - findfont: score(<Font 'Calibri' (calibrili.ttf) italic normal light normal>) = 11.24
+2019-07-14 15:22:34,774 - findfont: score(<Font 'Times New Roman' (timesi.ttf) italic normal roman normal>) = 11.145
+2019-07-14 15:22:34,774 - findfont: score(<Font 'Harrington' (HARNGTON.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,774 - findfont: score(<Font 'STKaiti' (STKAITI.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,774 - findfont: score(<Font 'Adobe Devanagari' (AdobeDevanagari-Regular.otf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,774 - findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono_0.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,774 - findfont: score(<Font 'Microsoft JhengHei' (msjhl.ttc) normal normal light normal>) = 10.24
+2019-07-14 15:22:34,775 - findfont: score(<Font 'Minion Pro' (MinionPro-BoldIt.otf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,775 - findfont: score(<Font 'Droid Serif' (DroidSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,775 - findfont: score(<Font 'Roboto Condensed' (RobotoCondensed-BoldItalic.ttf) italic normal bold condensed>) = 11.535
+2019-07-14 15:22:34,775 - findfont: score(<Font 'Constantia' (constanz.ttf) italic normal bold normal>) = 11.335
+2019-07-14 15:22:34,775 - findfont: score(<Font 'Adobe Naskh' (AdobeNaskh-Medium.otf) normal normal medium normal>) = 10.145
+2019-07-14 15:22:34,775 - findfont: score(<Font 'Verdana' (verdanaz.ttf) italic normal bold normal>) = 4.971363636363637
+2019-07-14 15:22:34,776 - findfont: score(<Font 'Lucida Bright' (LucidaBrightItalic.ttf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,776 - findfont: score(<Font 'Brush Script Std' (BrushScriptStd.otf) normal normal medium normal>) = 10.145
+2019-07-14 15:22:34,776 - findfont: score(<Font 'Yu Gothic' (YuGothL.ttc) normal normal light normal>) = 10.24
+2019-07-14 15:22:34,776 - findfont: score(<Font 'Sitka Small' (Sitka.ttc) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,777 - findfont: score(<Font 'Chaparral Pro' (ChaparralPro-Italic.otf) italic normal 400 normal>) = 11.05
+2019-07-14 15:22:34,777 - findfont: score(<Font 'Lucida Bright' (LBRITE.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,778 - findfont: score(<Font 'Kristen ITC' (ITCKRIST.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,778 - findfont: score(<Font 'Microsoft JhengHei' (msjhbd.ttc) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,778 - findfont: score(<Font 'Lucida Bright' (LucidaBrightRegular.ttf) normal normal regular normal>) = 10.05
+2019-07-14 15:22:34,779 - findfont: score(<Font 'Droid Serif' (DroidSerif-Bold.ttf) normal normal bold normal>) = 10.335
+2019-07-14 15:22:34,779 - findfont: score(<Font 'Marlett' (marlett.ttf) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,779 - findfont: score(<Font 'MT Extra' (MTEXTRA.TTF) normal normal 400 normal>) = 10.05
+2019-07-14 15:22:34,779 - findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.

@@ -1,6 +1,9 @@
 from dbconn import connectDB
+from dbconn.logger import logger
 import json
 from prettytable import PrettyTable
+
+import matplotlib.pyplot as plt
 
 INPUT = 0
 OUTPUT = 1
@@ -334,7 +337,7 @@ def recur_cluster(addr,txs):
         new_cluster = final_cluster
 
     println("Clustering Result",final_cluster)
-
+    return final_cluster
 
 
 def statistic_from_raw_txs(txs):
@@ -348,15 +351,72 @@ def statistic_from_raw_txs(txs):
     print("Total num of commen spending tx is {0}".format(len(cs_list)))
     return len(cs_list)
 
-def main():
+def cluster_several_addrs(addrs,txs, start, stop):
+    statistic_perc=0
+    statistic_match=0
+    x=[]
+    perc_array=[]
+    match_array=[]
+    for i in range(start,stop):
+        x.append(i)
+        heuristicCluster = re_cluster([addrs[i]],[addrs[i]], txs)
+        println("ClusteringResult",heuristicCluster)
+        realCluster = wallet_real_cluster(addrs[i])
+        perc, match=evaluate_cluster_result(heuristicCluster, realCluster)
+        statistic_perc = perc + statistic_perc
+        statistic_match = match + statistic_match
 
+        perc_array.append(perc)
+        match_array.append(match)
+
+    plt.plot(x, perc_array , color='green', label='clustered proportion')
+    plt.plot(x, match_array, color='red', label='matching percentage')
+    plt.legend()
+    plt.title('Matching percentage and clustered proportion')
+    plt.xlabel("addresses")
+    plt.ylabel("percentage")
+    plt.show()
+    avg_perc = round(statistic_perc/10, 2)
+    avg_match = round(statistic_match/10, 2)
+    return avg_perc, avg_match
+
+def evaluate_cluster_result(heuristicCluster,realCluster):
+    perc = round(len(heuristicCluster) / len(realCluster), 2) * 100
+    # print("{0}% addresses have been clustered".format(perc))
+    logger.info("{0}% addresses have been clustered".format(perc))
+
+    if set(heuristicCluster).issubset(set(realCluster)):
+        # print("\033[1;32m 100% accurate clustering \033[0m!")
+        logger.info('100% matching clustering!')
+        matching = 100
+    else:
+        inter = [i for i in heuristicCluster if i in realCluster]
+        wrongCluster = remove_duplicates(heuristicCluster,inter)
+        wcl = len(wrongCluster)
+        hcl = len(heuristicCluster)
+        # accurate = 1- round(len(wrongCluster)/len(heuristicCluster),2)
+        matching = round(1-wcl / hcl, 2)*100
+        # print("\033[1;31m {0}% accurate clustering \033[0m!".format(accurate))
+        logger.info("{0}% matching clustering!".format(matching))
+    return perc, matching
+
+
+
+def main():
+    # a=[1,2,5]
+    # b=[1,2,3,4]
+    # evaluate_cluster_result(a,b)
     # method 1
     addrs, txs = preprocessing()
+    cluster_several_addrs(addrs,txs,1,50)
 
-    addr = "12qnFUMWGUiGCNy3dhw57NHQyPyW78gmg8"
-    recur_cluster(addr, txs)
-    wallet_real_cluster(addr)
 
+
+
+    # addr = "12qnFUMWGUiGCNy3dhw57NHQyPyW78gmg8"
+    # heuristicCluster=recur_cluster(addr, txs)
+    # realCluster=wallet_real_cluster(addr)
+    # evaluate_cluster_result(heuristicCluster,realCluster)
     # # method 2
     # addrs, txs = preprocessing()
     # addr = "1NdufxUjo63f9dQ2ov9bCpNsXd23wbgaD6"
@@ -366,6 +426,7 @@ def main():
 if __name__ == "__main__":
     # test()
     main()
+
 
     # wallet_real_cluster()
 
